@@ -4,7 +4,27 @@ plugins:
   group:basic:
     admin: {}
     bind: {}
-    commands: {}
+    commands:
+      bind:
+        name: 管理/bind
+      channel:
+        name: 管理/channel
+      clear:
+        name: 管理/clear
+      inspect:
+        name: 管理/inspect
+      plugin:
+        name: 管理/plugin
+      status:
+        name: 管理/status
+      timer:
+        name: 管理/timer
+      usage:
+        name: 管理/usage
+      user:
+        name: 管理/user
+      help:
+        name: /帮助
     help: {}
     inspect: {}
     locales: {}
@@ -44,3 +64,5 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
+  group:m-essential:
+    '@mashiro-chan/base': {}
