@@ -1,6 +1,5 @@
 port: 5140
 maxPort: 5140
-
 plugins:
   group:basic:
     admin: {}
@@ -34,7 +33,14 @@ plugins:
     assets-local: {}
   group:adapter:
     ~adapter-kook: {}
+    adapter-qq:
+      id: ${{ env.QQ_ID }}
+      token: ${{ env.QQ_TOKEN }}
+      secret: ${{ env.QQ_SECRET }}
+      type: private
+      intents: 1006638595
+      sandbox: true
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
-      root: '.'
+      root: .
