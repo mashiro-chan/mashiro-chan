@@ -25,9 +25,16 @@ plugins:
         name: 管理/user
       help:
         name: /帮助
+      管理:
+        create: true
+      游戏:
+        create: true
+      聊天:
+        create: true
     help: {}
     inspect: {}
-    locales: {}
+    locales:
+      root: locales2
     rate-limit: {}
   group:console:
     analytics: {}
@@ -64,5 +71,3 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-  group:m-essential:
-    '@mashiro-chan/base': {}
