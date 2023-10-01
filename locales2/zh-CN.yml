@@ -1,3 +1,7 @@
 commands.管理.description: 机器人管理功能
 commands.游戏.description: 丰富的小游戏
 commands.聊天.description: 与机器人进行对话
+commands.工具.description: 各种实用小工具
+commands.娱乐.description: 娱乐功能
+commands.aircon.description: 可以群内使用的小空调
+commands.chess.description: 支持五子棋、围棋、黑白棋

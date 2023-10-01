@@ -31,6 +31,22 @@ plugins:
         create: true
       聊天:
         create: true
+      娱乐:
+        create: true
+      工具:
+        create: true
+      aircon:
+        name: 娱乐/群空调
+      tex:
+        name: 工具/tex
+      chess:
+        name: 游戏/棋类游戏
+      roll:
+        name: 游戏/roll
+      hitokoto:
+        name: 娱乐/一言
+      thursday:
+        name: 娱乐/疯狂星期四
     help: {}
     inspect: {}
     locales:
@@ -50,7 +66,7 @@ plugins:
       registry:
         endpoint: https://registry.npmmirror.com
       search:
-        endpoint: https://registry.koishi.chat/index.json
+        endpoint: https://koi.nyan.zone/registry/index.json
     sandbox: {}
     status: {}
     theme-vanilla: {}
@@ -71,3 +87,20 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
+  group:m-ent:
+    aircon: {}
+    hitokoto: {}
+    crazy-thursday: {}
+  group:m-svc:
+    puppeteer:
+      headless: false
+  group:m-tools:
+    tex: {}
+  group:m-games:
+    chess: {}
+    dice: {}
+  group:m-console:
+    changelog: {}
+prefix:
+  - /
+  - null
