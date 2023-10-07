@@ -47,11 +47,60 @@ plugins:
         name: 娱乐/一言
       thursday:
         name: 娱乐/疯狂星期四
+      animal:
+        name: 娱乐/动物图
+      emojimix:
+        name: 娱乐/emoji合成
+      qrcode:
+        name: 工具/二维码
+      mcping:
+        name: 工具/mc状态
+      oeis:
+        name: 工具/oeis查询
+      music:
+        name: 娱乐/点歌
+        aliases:
+          - 音乐
+      brainfuck:
+        name: 编程工具/bf代码
+      weather:
+        name: 工具/天气
+      baidu:
+        name: 工具/百度
+        aliases:
+          - 百度百科
+      maya:
+        name: 工具/玛雅历
+      glot:
+        aliases:
+          - 运行
+        name: 工具/代码
+      douban:
+        name: 工具/豆瓣
+      twdne:
+        name: 娱乐/twdne
+      alipay-voice:
+        name: 娱乐/支付宝到账
+      hangman:
+        name: 游戏/吊死鬼
+      abbr:
+        name: 娱乐/缩写
+      shutdown:
+        config:
+          hidden: true
+      pointfree:
+        name: 编程工具/pointfree
+      编程工具:
+        create: true
+        name: 工具/编程工具
+      guess:
+        name: 游戏/猜数字
     help: {}
     inspect: {}
     locales:
       root: locales2
     rate-limit: {}
+    shutdown: {}
   group:console:
     analytics: {}
     ~auth: {}
@@ -81,7 +130,7 @@ plugins:
       token: ${{ env.QQ_TOKEN }}
       secret: ${{ env.QQ_SECRET }}
       type: private
-      intents: 1006638595
+      intents: 2080380419
       sandbox: true
   group:develop:
     $if: env.NODE_ENV === 'development'
@@ -91,16 +140,43 @@ plugins:
     aircon: {}
     hitokoto: {}
     crazy-thursday: {}
+    ~animal-picture:
+      inbound: true
+    emojimix: {}
+    music:
+      showWarning: true
+    twdne: {}
+    ~alipay-voice: {}
+    ~httpcat: {}
+    ~nonsense: {}
+    abbreviation: {}
   group:m-svc:
     puppeteer:
       headless: false
+    markdown: {}
+    text-censor: {}
   group:m-tools:
     tex: {}
+    qrcode: {}
+    mcping: {}
+    oeis: {}
+    brainfuck: {}
+    weather: {}
+    baidu: {}
+    maya: {}
+    glot: {}
+    douban: {}
+    ~bvid: {}
+    pointfree: {}
   group:m-games:
     chess: {}
     dice: {}
+    hangman: {}
+    guess-number: {}
   group:m-console:
     changelog: {}
+  group:m-audit:
+    blame: {}
 prefix:
   - /
   - null

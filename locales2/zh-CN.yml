@@ -5,3 +5,6 @@ commands.工具.description: 各种实用小工具
 commands.娱乐.description: 娱乐功能
 commands.aircon.description: 可以群内使用的小空调
 commands.chess.description: 支持五子棋、围棋、黑白棋
+commands.animal.description: 可爱的动物图片
+commands.emojimix.description: 混合两个emoji表情
+commands.glot.description: 使用glot运行代码
