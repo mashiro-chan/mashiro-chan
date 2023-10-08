@@ -27,8 +27,6 @@ plugins:
         name: /帮助
       管理:
         create: true
-      游戏:
-        create: true
       聊天:
         create: true
       娱乐:
@@ -40,17 +38,17 @@ plugins:
       tex:
         name: 工具/tex
       chess:
-        name: 游戏/棋类游戏
+        name: 小游戏/棋类游戏
       roll:
-        name: 游戏/roll
+        name: 小游戏/roll
       hitokoto:
-        name: 娱乐/一言
+        name: 文字/一言
       thursday:
-        name: 娱乐/疯狂星期四
+        name: 文字/疯狂星期四
       animal:
         name: 娱乐/动物图
       emojimix:
-        name: 娱乐/emoji合成
+        name: 图片/emoji合成
       qrcode:
         name: 工具/二维码
       mcping:
@@ -64,7 +62,7 @@ plugins:
       brainfuck:
         name: 编程工具/bf代码
       weather:
-        name: 工具/天气
+        name: 日常工具/天气
       baidu:
         name: 工具/百度
         aliases:
@@ -72,35 +70,168 @@ plugins:
       maya:
         name: 工具/玛雅历
       glot:
+        name: 工具/代码
         aliases:
           - 运行
-        name: 工具/代码
       douban:
         name: 工具/豆瓣
-      twdne:
-        name: 娱乐/twdne
       alipay-voice:
         name: 娱乐/支付宝到账
       hangman:
-        name: 游戏/吊死鬼
+        name: 小游戏/吊死鬼
       abbr:
-        name: 娱乐/缩写
+        name: 文字/缩写
       shutdown:
-        config:
-          hidden: true
+        name: 管理/shutdown
       pointfree:
         name: 编程工具/pointfree
       编程工具:
-        create: true
         name: 工具/编程工具
+        create: true
       guess:
-        name: 游戏/猜数字
+        name: 小游戏/猜数字
+      4kimg:
+        name: 图片/风景图
+        aliases:
+          - 风景照
+          - 风景照片
+      sign:
+        name: 图片/小人举牌
+      图片:
+        create: true
+      文字:
+        create: true
+        aliases:
+          - 文本
+      网易云热评:
+        name: 文字/网易云热评
+      每日一句:
+        name: 文字/每日一句
+      twdne:
+        name: 图片/twdne
+      showtime:
+        name: 工具/当前时间
+      sudo:
+        name: 管理/sudo
+      骚话文案:
+        name: 文字/骚话文案
+      喜报:
+        name: 图片/喜报
+      小游戏:
+        create: true
+        aliases:
+          - 游戏
+      游戏工具:
+        create: true
+      genshin:
+        name: 游戏工具/genshin
+      资讯:
+        create: true
+      成语查询:
+        name: 文字/成语查询
+      悲报:
+        name: 图片/悲报
+      今日运势:
+        name: 娱乐/今日运势
+      动漫壁纸:
+        name: 图片/动漫壁纸
+      历史今日:
+        name: 资讯/历史今日
+      神回复:
+        name: 文字/神回复
+      皮一下:
+        name: 文字/皮一下
+      王者:
+        name: 文字/王者
+      votemanager:
+        name: 小游戏/实时投票
+      roulette:
+        name: 小游戏/轮盘赌
+        aliases:
+          - 俄罗斯轮盘赌
+      poolmanager:
+        name: 小游戏/抽卡模拟器
+      lottery:
+        name: 小游戏/揭奖
+      weibo-hot:
+        name: 资讯/weibo-hot
+      todaynews:
+        name: 资讯/todaynews
+      tarot:
+        name: 娱乐/塔罗牌
+        aliases:
+          - 塔罗牌占卜
+      sleep:
+        name: 工具/sleep
+      skl:
+        name: 文字/skl
+      schedule:
+        name: 管理/schedule
+      moyu:
+        name: 资讯/moyu
+      日常工具:
+        name: 工具/日常工具
+        create: true
+      exchange:
+        name: 日常工具/exchange
+      s24:
+        name: 小游戏/s24
+      phlogo:
+        name: 图片/phlogo
+      tiangou-word:
+        name: 文字/tiangou-word
+      shici-word:
+        name: 文字/shici-word
+      sad-word:
+        name: 文字/sad-word
+      毒鸡汤:
+        name: 文字/毒鸡汤
+      pengyouquan-word:
+        name: 文字/pengyouquan-word
+      nonsense:
+        name: 文字/nonsense
+      love-word:
+        name: 文字/love-word
+      jrrp:
+        name: 娱乐/jrrp
+      r-wallpaper:
+        name: 图片/二次元房间
+      httpcat:
+        name: 图片/httpcat
+      handwrite:
+        name: 图片/手写
+      famous-word:
+        name: 文字/famous-word
+      beauty-img:
+        name: 图片/beauty-img
+      bangumi:
+        name: 资讯/bangumi
+      auto-s24:
+        name: 小游戏/auto-s24
+      5k:
+        name: 图片/5k
+      24point:
+        name: 小游戏/24point
+      对对联:
+        name: 文字/对对联
+      搞笑语录:
+        name: 文字/搞笑语录
+      heapsnapshot:
+        name: 管理/heapsnapshot
+      roulette.shoot:
+        name: roulette/扣下扳机
+      votemanager.vote:
+        name: votemanager/投票
+      poolmanager.draw:
+        name: poolmanager/抽卡
     help: {}
     inspect: {}
     locales:
       root: locales2
     rate-limit: {}
     shutdown: {}
+    sudo:ibi8h0: {}
+    heapsnapshot:gj0csh: {}
   group:console:
     analytics: {}
     ~auth: {}
@@ -119,6 +250,7 @@ plugins:
     sandbox: {}
     status: {}
     theme-vanilla: {}
+    ~click-colorful: {}
   group:storage:
     database-sqlite: {}
     ~database-mysql: {}
@@ -131,52 +263,105 @@ plugins:
       secret: ${{ env.QQ_SECRET }}
       type: private
       intents: 2080380419
-      sandbox: true
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
   group:m-ent:
     aircon: {}
-    hitokoto: {}
-    crazy-thursday: {}
-    ~animal-picture:
-      inbound: true
-    emojimix: {}
     music:
       showWarning: true
-    twdne: {}
-    ~alipay-voice: {}
-    ~httpcat: {}
-    ~nonsense: {}
-    abbreviation: {}
+    alipay-voice: {}
+    jrrp: {}
+    group:m-ent-pic:
+      ~animal-picture:
+        inbound: true
+      emojimix: {}
+      5k: {}
+      phlogo: {}
+      4k-background: {}
+      human-sign: {}
+      random-wallpaper: {}
+      spawn-handwrite-img: {}
+      ~twdne: {}
+      ~beauty-img: {}
+      '@ifrank/xibao': {}
+      httpcat: {}
+    group:m-ent-text:
+      hitokoto: {}
+      crazy-thursday: {}
+      abbreviation: {}
+      today-word:wya9ot: {}
+      wangyiyun-word: {}
+      shici-word: {}
+      dujitang-word: {}
+      tiangou-word: {}
+      sad-word: {}
+      pengyouquan-word: {}
+      words: {}
+      famous-word: {}
+      love-word: {}
+      shunkouliu-word: {}
+      dongmanbizhi-img: {}
+      saohua-word:dbfvk7: {}
+      shenhuifu-word: {}
+      wangzhe-word: {}
+      interesting-word: {}
+      xingzuo-words: {}
+      chengyu-words:rvssdn: {}
+      couplet: {}
+      nonsense: {}
   group:m-svc:
-    puppeteer:
-      headless: false
+    puppeteer: {}
     markdown: {}
     text-censor: {}
+    cron: {}
+    presence: {}
+    cache-database:zkmzcd: {}
+    schedule:oxinzl: {}
   group:m-tools:
     tex: {}
     qrcode: {}
     mcping: {}
     oeis: {}
     brainfuck: {}
-    weather: {}
     baidu: {}
     maya: {}
     glot: {}
     douban: {}
-    ~bvid: {}
+    bvid: {}
     pointfree: {}
+    showtime:3kwosg: {}
+    group:m-tools-routine:
+      weather: {}
+      sleep-manage: {}
+      exchange-rate: {}
   group:m-games:
     chess: {}
     dice: {}
     hangman: {}
     guess-number: {}
+    ~@ninnana/24point:0rfztt: {}
+    pool-simulator:sl0up2: {}
+    realtime-vote: {}
+    lottery: {}
+    tarot-divination:3wzqzf: {}
+    russian-roulette:nr9t9r: {}
   group:m-console:
     changelog: {}
   group:m-audit:
     blame: {}
+  group:m-news:
+    todaynews: {}
+    today-in-history: {}
+    weibo-hot: {}
+    moyu2:n4d791: {}
+    bangumi:7b73or: {}
+  group:m-gametools:
+    gdk:a79p3g: {}
+    genshin-code: {}
+  group:m-chat:
+    respondent: {}
 prefix:
   - /
   - null

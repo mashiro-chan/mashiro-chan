@@ -8,3 +8,15 @@ commands.chess.description: 支持五子棋、围棋、黑白棋
 commands.animal.description: 可爱的动物图片
 commands.emojimix.description: 混合两个emoji表情
 commands.glot.description: 使用glot运行代码
+commands.图片.description: 获取和生成各种图片
+commands.文字.description: 随机输出各种类型文本
+commands.小游戏.description: 各种有趣的小游戏
+commands.资讯.description: 获取网络上的资讯
+commands.游戏工具.description: 各种游戏的辅助工具
+commands.phlogo.description: 生成ph的logo图
+commands.r-wallpaper.description: 随机二次元房间图
+commands.poolmanager.description: 抽卡模拟器
+commands.votemanager.description: 简单的群投票
+commands.showtime.description: 显示当前时间（←有什么用啊喂
+commands.日常工具.description: 日常实用小工具
+commands.编程工具.description: 编程相关工具
