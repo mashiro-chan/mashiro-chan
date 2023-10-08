@@ -224,6 +224,10 @@ plugins:
         name: votemanager/投票
       poolmanager.draw:
         name: poolmanager/抽卡
+      feedback:
+        name: /反馈
+      关于:
+        create: true
     help: {}
     inspect: {}
     locales:
@@ -261,8 +265,8 @@ plugins:
       id: ${{ env.QQ_ID }}
       token: ${{ env.QQ_TOKEN }}
       secret: ${{ env.QQ_SECRET }}
-      type: private
-      intents: 2080380419
+      type: public
+      intents: 1275073539
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
@@ -351,6 +355,7 @@ plugins:
     changelog: {}
   group:m-audit:
     blame: {}
+    feedback: {}
   group:m-news:
     todaynews: {}
     today-in-history: {}

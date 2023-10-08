@@ -20,3 +20,6 @@ commands.votemanager.description: 简单的群投票
 commands.showtime.description: 显示当前时间（←有什么用啊喂
 commands.日常工具.description: 日常实用小工具
 commands.编程工具.description: 编程相关工具
+commands.feedback.description: 给真白酱提建议！
+commands.feedback.messages.expect-text: 请输入要发送的反馈~
+commands.关于.description: 关于真白酱
