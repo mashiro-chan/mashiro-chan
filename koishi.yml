@@ -27,8 +27,6 @@ plugins:
         name: /帮助
       管理:
         create: true
-      聊天:
-        create: true
       娱乐:
         create: true
       工具:
@@ -178,20 +176,10 @@ plugins:
         name: 小游戏/s24
       phlogo:
         name: 图片/phlogo
-      tiangou-word:
-        name: 文字/tiangou-word
-      shici-word:
-        name: 文字/shici-word
-      sad-word:
-        name: 文字/sad-word
       毒鸡汤:
         name: 文字/毒鸡汤
-      pengyouquan-word:
-        name: 文字/pengyouquan-word
       nonsense:
         name: 文字/nonsense
-      love-word:
-        name: 文字/love-word
       jrrp:
         name: 娱乐/jrrp
       r-wallpaper:
@@ -200,8 +188,6 @@ plugins:
         name: 图片/httpcat
       handwrite:
         name: 图片/手写
-      famous-word:
-        name: 文字/famous-word
       beauty-img:
         name: 图片/beauty-img
       bangumi:
@@ -228,6 +214,118 @@ plugins:
         name: /反馈
       关于:
         create: true
+      star-history:
+        name: 编程工具/star历史
+      lobby:
+        name: 小游戏/大厅
+        aliases:
+          - 房间
+      enka:
+        name: 游戏工具/enka
+      game:
+        name: 小游戏/game
+      bf2042:
+        name: 游戏工具/bf2042
+      实时油价:
+        name: 日常工具/油价
+      recall:
+        name: 管理/撤回
+      ba:
+        name: 游戏工具/ba
+      好感计算:
+        name: 游戏工具/好感计算
+      攻略:
+        name: 游戏工具/攻略
+      重置插件数据库:
+        name: 游戏工具/重置插件数据库
+      攒钻:
+        name: 游戏工具/攒钻
+      升级:
+        name: 游戏工具/升级
+      wordle:
+        name: 小游戏/wordle
+      remake:
+        name: 小游戏/人生重开
+      npmunused:
+        name: 编程工具/npm随机名称
+      name:
+        name: 小游戏/随机姓名
+      profile:
+        name: 管理/profile
+      ping:
+        name: 管理/ping
+      cck:
+        name: 小游戏/猜猜看
+      allow:
+        name: 文字/allow
+      choice:
+        name: 文字/choice
+      or:
+        name: 文字/or
+      sr:
+        name: 游戏工具/sr
+      ys:
+        name: 游戏工具/ys
+      shindan:
+        name: 娱乐/shindan
+      fantan:
+        name: 小游戏/番摊
+      blackjack:
+        name: 小游戏/21点
+      ddz:
+        name: 小游戏/ddz
+        aliases:
+          - 斗地主
+      bullcard:
+        name: 小游戏/斗牛
+      numtheoryanalyzer:
+        name: 工具/数字分析
+      numboom:
+        name: 小游戏/数字炸弹
+      certificate-achievement:
+        name: 图片/奖状
+      unicode:
+        name: 编程工具/unicode
+      nana:
+        name: 图片/狗妈表情包
+      capoo:
+        name: 图片/capoo表情包
+      certify-master:
+        name: 图片/certify-master
+        config:
+          hidden: true
+      virgin-vouch:
+        name: 图片/处男证
+      genshin-date:
+        name: 游戏工具/原神黄历
+      cyber-dream:
+        name: 文字/周公解梦
+      答案之书:
+        name: 文字/答案之书
+      quiz-master:
+        name: 小游戏/知识问答
+      chaiq-memes-image:
+        name: 图片/柴郡
+      天气:
+        name: 日常工具/天气
+      color-bias:
+        name: 小游戏/色觉测试
+      meal:
+        name: 文字/吃什么
+      算一卦:
+        name: 文字/算卦
+      暗拍:
+        name: 小游戏/暗拍
+      拍卖:
+        name: 小游戏/拍卖
+      观音灵签:
+        name: 文字/抽签
+      color-ident:
+        name: 小游戏/色彩识别
+      猜谜:
+        name: 小游戏/猜谜
+      reactle:
+        name: 小游戏/reactle
     help: {}
     inspect: {}
     locales:
@@ -236,6 +334,9 @@ plugins:
     shutdown: {}
     sudo:ibi8h0: {}
     heapsnapshot:gj0csh: {}
+    recall: {}
+    '@hieuzest/ping': {}
+    ~public: {}
   group:console:
     analytics: {}
     ~auth: {}
@@ -255,6 +356,8 @@ plugins:
     status: {}
     theme-vanilla: {}
     ~click-colorful: {}
+    desktop: {}
+    wallpaper: {}
   group:storage:
     database-sqlite: {}
     ~database-mysql: {}
@@ -277,6 +380,7 @@ plugins:
       showWarning: true
     alipay-voice: {}
     jrrp: {}
+    shindan-maker: {}
     group:m-ent-pic:
       ~animal-picture:
         inbound: true
@@ -291,30 +395,27 @@ plugins:
       ~beauty-img: {}
       '@ifrank/xibao': {}
       httpcat: {}
+      ~memes-api: {}
+      certificate-achievement: {}
+      capoo:tmp7ad: {}
+      kagura-nana: {}
+      virgin-vouch: {}
+      chaiq-memes-image: {}
     group:m-ent-text:
       hitokoto: {}
-      crazy-thursday: {}
       abbreviation: {}
-      today-word:wya9ot: {}
-      wangyiyun-word: {}
-      shici-word: {}
-      dujitang-word: {}
-      tiangou-word: {}
-      sad-word: {}
-      pengyouquan-word: {}
-      words: {}
-      famous-word: {}
-      love-word: {}
-      shunkouliu-word: {}
-      dongmanbizhi-img: {}
-      saohua-word:dbfvk7: {}
-      shenhuifu-word: {}
-      wangzhe-word: {}
-      interesting-word: {}
-      xingzuo-words: {}
-      chengyu-words:rvssdn: {}
       couplet: {}
       nonsense: {}
+      cyber-dream: {}
+      names: {}
+      '@yrchashao/or': {}
+      book: {}
+      meal:
+        json_url: >-
+          https://ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
+      at-suangua: {}
+      zhouyi-suangua: {}
+      divine-oracle: {}
   group:m-svc:
     puppeteer: {}
     markdown: {}
@@ -323,34 +424,63 @@ plugins:
     presence: {}
     cache-database:zkmzcd: {}
     schedule:oxinzl: {}
+    lobby: {}
+    profile: {}
+    react: {}
+    downloads: {}
+    nix: {}
+    ~canvas: {}
   group:m-tools:
     tex: {}
     qrcode: {}
     mcping: {}
     oeis: {}
-    brainfuck: {}
     baidu: {}
     maya: {}
-    glot: {}
     douban: {}
     bvid: {}
-    pointfree: {}
     showtime:3kwosg: {}
     group:m-tools-routine:
-      weather: {}
       sleep-manage: {}
       exchange-rate: {}
+      check-oil-prices: {}
+      wttr-weather: {}
+    group:m-tools-dev:
+      pointfree: {}
+      glot: {}
+      brainfuck: {}
+      star-history: {}
+      npm-unused: {}
+      ~pacman: {}
+      unicode: {}
+    num-theory-analyzer: {}
   group:m-games:
     chess: {}
     dice: {}
     hangman: {}
     guess-number: {}
-    ~@ninnana/24point:0rfztt: {}
     pool-simulator:sl0up2: {}
     realtime-vote: {}
     lottery: {}
-    tarot-divination:3wzqzf: {}
-    russian-roulette:nr9t9r: {}
+    tarot-divination: {}
+    russian-roulette: {}
+    rps: {}
+    '@shiki-chan/werewolf': {}
+    wordle: {}
+    remake: {}
+    ~last-man-standing: {}
+    cck: {}
+    card-21-game: {}
+    fantan-game: {}
+    fight-landlord: {}
+    bull-card-game: {}
+    number-boom: {}
+    quiz-master: {}
+    color-bias: {}
+    color-ident: {}
+    auction: {}
+    reactle: {}
+    guess-riddle: {}
   group:m-console:
     changelog: {}
   group:m-audit:
@@ -365,6 +495,15 @@ plugins:
   group:m-gametools:
     gdk:a79p3g: {}
     genshin-code: {}
+    enka: {}
+    game-tracker: {}
+    ba-plugin: {}
+    starrail: {}
+    starrail-gachalog: {}
+    starrail-code: {}
+    starrail-atlas: {}
+    genshin-atlas: {}
+    genshin-date: {}
   group:m-chat:
     respondent: {}
 prefix:
