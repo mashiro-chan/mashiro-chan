@@ -364,7 +364,7 @@ plugins:
     database-mysql:
       $if: env.MYSQL_HOST
       host: ${{ env.MYSQL_HOST }}
-      port: ${{ Number(env.MYSQL_PORT) }}
+      port: 3306
       password: ${{ env.MYSQL_PASSWORD }}
       database: ${{ env.MYSQL_DATABASE }}
     assets-local: {}
@@ -457,7 +457,7 @@ plugins:
       brainfuck: {}
       star-history: {}
       npm-unused: {}
-      ~pacman: {}
+      # ~pacman: {}
       unicode: {}
     num-theory-analyzer: {}
   group:m-games:
