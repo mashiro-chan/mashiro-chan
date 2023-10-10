@@ -332,8 +332,8 @@ plugins:
       root: locales2
     rate-limit: {}
     shutdown: {}
-    sudo:ibi8h0: {}
-    heapsnapshot:gj0csh: {}
+    sudo: {}
+    heapsnapshot: {}
     recall: {}
     '@hieuzest/ping': {}
     ~public: {}
@@ -359,8 +359,14 @@ plugins:
     desktop: {}
     wallpaper: {}
   group:storage:
-    database-sqlite: {}
-    ~database-mysql: {}
+    database-sqlite:
+      $if: '!env.MYSQL_HOST'
+    database-mysql:
+      $if: env.MYSQL_HOST
+      host: ${{ env.MYSQL_HOST }}
+      port: ${{ Number(env.MYSQL_PORT) }}
+      password: ${{ env.MYSQL_PASSWORD }}
+      database: ${{ env.MYSQL_DATABASE }}
     assets-local: {}
   group:adapter:
     ~adapter-kook: {}
