@@ -23,3 +23,13 @@ commands.编程工具.description: 编程相关工具
 commands.feedback.description: 给真白酱提建议！
 commands.feedback.messages.expect-text: 请输入要发送的反馈~
 commands.关于.description: 关于真白酱
+commands.name.description: 随机抽取一个名字！
+commands.hangman.description: 吊死鬼小游戏
+commands.guess.description: 4位猜数字小游戏
+commands.chaiq-memes-image.description: 随机柴郡表情包
+commands.certificate-achievement.description: 为你生成一张奖状~
+commands.nana.description: 随机一张狗妈表情包
+commands.jrrp.description: 查看你的今日人品~
+commands.天气.description: 获取天气
+commands.star-history.description: 查询star历史
+commands.ys.description: 原神相关功能

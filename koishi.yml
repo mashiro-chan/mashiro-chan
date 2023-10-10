@@ -27,12 +27,12 @@ plugins:
         name: /帮助
       管理:
         create: true
-      娱乐:
-        create: true
+        config:
+          hidden: true
       工具:
         create: true
       aircon:
-        name: 娱乐/群空调
+        name: 小游戏/群空调
       tex:
         name: 工具/tex
       chess:
@@ -116,9 +116,10 @@ plugins:
       喜报:
         name: 图片/喜报
       小游戏:
+        name: /游戏
         create: true
         aliases:
-          - 游戏
+          - 娱乐
       游戏工具:
         create: true
       genshin:
@@ -152,9 +153,9 @@ plugins:
       lottery:
         name: 小游戏/揭奖
       weibo-hot:
-        name: 资讯/weibo-hot
+        name: 资讯/热搜
       todaynews:
-        name: 资讯/todaynews
+        name: 资讯/新闻
       tarot:
         name: 娱乐/塔罗牌
         aliases:
@@ -166,12 +167,12 @@ plugins:
       schedule:
         name: 管理/schedule
       moyu:
-        name: 资讯/moyu
+        name: 资讯/摸鱼
       日常工具:
         name: 工具/日常工具
         create: true
       exchange:
-        name: 日常工具/exchange
+        name: 日常工具/汇率
       s24:
         name: 小游戏/s24
       phlogo:
@@ -179,9 +180,11 @@ plugins:
       毒鸡汤:
         name: 文字/毒鸡汤
       nonsense:
-        name: 文字/nonsense
+        name: 文字/随机句子
+        aliases:
+          - ns
       jrrp:
-        name: 娱乐/jrrp
+        name: 小游戏/今日人品
       r-wallpaper:
         name: 图片/二次元房间
       httpcat:
@@ -191,7 +194,7 @@ plugins:
       beauty-img:
         name: 图片/beauty-img
       bangumi:
-        name: 资讯/bangumi
+        name: 资讯/番组计划
       auto-s24:
         name: 小游戏/auto-s24
       5k:
@@ -265,7 +268,7 @@ plugins:
       sr:
         name: 游戏工具/sr
       ys:
-        name: 游戏工具/ys
+        name: 游戏工具/原神
       shindan:
         name: 娱乐/shindan
       fantan:
@@ -376,26 +379,25 @@ plugins:
       secret: ${{ env.QQ_SECRET }}
       type: public
       intents: 1275073539
+      sandbox: false
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
   group:m-ent:
     aircon: {}
-    music:
+    ~music:
       showWarning: true
-    alipay-voice: {}
+    ~alipay-voice: {}
     jrrp: {}
-    shindan-maker: {}
+    ~shindan-maker: {}
     group:m-ent-pic:
       ~animal-picture:
         inbound: true
       emojimix: {}
       5k: {}
       phlogo: {}
-      4k-background: {}
       human-sign: {}
-      random-wallpaper: {}
       spawn-handwrite-img: {}
       ~twdne: {}
       ~beauty-img: {}
@@ -405,7 +407,6 @@ plugins:
       certificate-achievement: {}
       capoo:tmp7ad: {}
       kagura-nana: {}
-      virgin-vouch: {}
       chaiq-memes-image: {}
     group:m-ent-text:
       hitokoto: {}
@@ -414,7 +415,7 @@ plugins:
       nonsense: {}
       cyber-dream: {}
       names: {}
-      '@yrchashao/or': {}
+      ~@yrchashao/or: {}
       book: {}
       meal:
         json_url: >-
@@ -430,7 +431,6 @@ plugins:
     presence: {}
     cache-database:zkmzcd: {}
     schedule:oxinzl: {}
-    lobby: {}
     profile: {}
     react: {}
     downloads: {}
@@ -439,54 +439,49 @@ plugins:
   group:m-tools:
     tex: {}
     qrcode: {}
-    mcping: {}
+    ~mcping: {}
     oeis: {}
-    baidu: {}
+    ~baidu: {}
     maya: {}
     douban: {}
     bvid: {}
     showtime:3kwosg: {}
     group:m-tools-routine:
-      sleep-manage: {}
       exchange-rate: {}
       check-oil-prices: {}
-      wttr-weather: {}
+      ~wttr-weather: {}
     group:m-tools-dev:
       pointfree: {}
       glot: {}
       brainfuck: {}
-      star-history: {}
+      ~star-history: {}
       npm-unused: {}
-      # ~pacman: {}
       unicode: {}
     num-theory-analyzer: {}
   group:m-games:
-    chess: {}
+    ~lobby: {}
+    ~chess: {}
     dice: {}
     hangman: {}
     guess-number: {}
-    pool-simulator:sl0up2: {}
-    realtime-vote: {}
-    lottery: {}
-    tarot-divination: {}
-    russian-roulette: {}
-    rps: {}
-    '@shiki-chan/werewolf': {}
+    ~pool-simulator:sl0up2: {}
+    ~realtime-vote: {}
+    ~lottery: {}
+    ~tarot-divination: {}
+    ~russian-roulette: {}
+    ~rps: {}
+    ~@shiki-chan/werewolf: {}
     wordle: {}
-    remake: {}
+    ~remake: {}
     ~last-man-standing: {}
-    cck: {}
-    card-21-game: {}
-    fantan-game: {}
-    fight-landlord: {}
-    bull-card-game: {}
-    number-boom: {}
-    quiz-master: {}
+    ~card-21-game: {}
+    ~fantan-game: {}
+    ~fight-landlord: {}
+    ~bull-card-game: {}
+    ~quiz-master: {}
     color-bias: {}
     color-ident: {}
-    auction: {}
-    reactle: {}
-    guess-riddle: {}
+    ~guess-riddle: {}
   group:m-console:
     changelog: {}
   group:m-audit:
@@ -502,8 +497,7 @@ plugins:
     gdk:a79p3g: {}
     genshin-code: {}
     enka: {}
-    game-tracker: {}
-    ba-plugin: {}
+    ~ba-plugin: {}
     starrail: {}
     starrail-gachalog: {}
     starrail-code: {}
