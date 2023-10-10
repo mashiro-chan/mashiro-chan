@@ -46,7 +46,7 @@ plugins:
       animal:
         name: 娱乐/动物图
       emojimix:
-        name: 图片/emoji合成
+        name: 图片/表情合成
       qrcode:
         name: 工具/二维码
       mcping:
@@ -342,7 +342,9 @@ plugins:
     ~public: {}
   group:console:
     analytics: {}
-    ~auth: {}
+    auth:
+      admin:
+        password: ${{ env.ADMIN_PASSWORD }}
     config: {}
     console:
       open: true
