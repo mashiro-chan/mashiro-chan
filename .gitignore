@@ -130,6 +130,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Vite
+cache/
+
 # Lockfiles
 yarn.lock
 
