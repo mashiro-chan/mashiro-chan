@@ -72,7 +72,7 @@ plugins:
         aliases:
           - 运行
       douban:
-        name: 工具/豆瓣
+        name: 资讯/豆瓣
       alipay-voice:
         name: 娱乐/支付宝到账
       hangman:
@@ -232,7 +232,7 @@ plugins:
       实时油价:
         name: 日常工具/油价
       recall:
-        name: 管理/撤回
+        name: 管理/recall
       ba:
         name: 游戏工具/ba
       好感计算:
@@ -341,7 +341,6 @@ plugins:
     '@hieuzest/ping': {}
     ~public: {}
   group:console:
-    analytics: {}
     auth:
       admin:
         password: ${{ env.ADMIN_PASSWORD }}
@@ -405,13 +404,12 @@ plugins:
       spawn-handwrite-img: {}
       ~twdne: {}
       ~beauty-img: {}
-      '@ifrank/xibao': {}
+      '@ifrank/xibao':
+        advanced:
+          importCSS: ''
       httpcat: {}
       ~memes-api: {}
       certificate-achievement: {}
-      capoo:tmp7ad: {}
-      kagura-nana: {}
-      chaiq-memes-image: {}
     group:m-ent-text:
       hitokoto: {}
       abbreviation: {}
@@ -447,7 +445,6 @@ plugins:
     oeis: {}
     ~baidu: {}
     maya: {}
-    douban: {}
     bvid: {}
     showtime:3kwosg: {}
     group:m-tools-routine:
@@ -494,9 +491,9 @@ plugins:
   group:m-news:
     todaynews: {}
     today-in-history: {}
-    weibo-hot: {}
     moyu2:n4d791: {}
     bangumi:7b73or: {}
+    douban: {}
   group:m-gametools:
     gdk:a79p3g: {}
     genshin-code: {}
