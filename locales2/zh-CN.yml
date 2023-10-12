@@ -33,3 +33,9 @@ commands.jrrp.description: 查看你的今日人品~
 commands.天气.description: 获取天气
 commands.star-history.description: 查询star历史
 commands.ys.description: 原神相关功能
+commands.help.messages.command-title: |-
+  指令：{0}
+  发送「@真白酱 /指令 内容」即可调用~
+commands.help.messages.global-prolog: |-
+  当前可用的指令{0}：
+  发送「@真白酱 /指令 内容」即可调用~

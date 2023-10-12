@@ -487,8 +487,8 @@ plugins:
   group:m-console:
     changelog: {}
   group:m-audit:
-    blame: {}
-    feedback: {}
+    ~blame: {}
+    ~feedback: {}
   group:m-news:
     todaynews: {}
     today-in-history: {}
