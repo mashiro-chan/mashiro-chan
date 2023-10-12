@@ -24,7 +24,7 @@
       // If you are developing a scoped plugin,
       // just uncomment the next line and change `@scope`
       // to the scope name (i.e. npm account or organization).
-      "@mashiro-chan/koishi-plugin-*": ["external/*/src"],
+      "@m6c/koishi-plugin-*": ["external/*/src"],
 
       // Below are links for koishi internal packages.
       // You only need them when you are developing koishi itself.
