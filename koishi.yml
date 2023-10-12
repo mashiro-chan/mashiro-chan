@@ -386,6 +386,8 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
+  group:m-basic:
+    '@m6c/base': {}
   group:m-ent:
     aircon: {}
     ~music:

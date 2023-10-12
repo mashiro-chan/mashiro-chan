@@ -102,6 +102,7 @@
     "@koishijs/plugin-market": "2.2.13",
     "@koishijs/plugin-sandbox": "3.2.0",
     "@koishijs/plugin-status": "7.2.1",
+    "@m6c/koishi-plugin-base": "0.1.0",
     "@shiki-chan/koishi-plugin-werewolf": "0.3.1",
     "@yrchashao/koishi-plugin-or": "1.0.9",
     "jsonpath-plus": "^7.2.0",
