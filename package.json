@@ -79,7 +79,6 @@
     "yml-register": "1.1.0"
   },
   "dependencies": {
-    "@hieuzest/koishi-plugin-ping": "1.1.10",
     "@ifrank/koishi-plugin-xibao": "1.2.2",
     "@koishijs/plugin-adapter-kook": "4.0.4",
     "@koishijs/plugin-adapter-qq": "4.1.1",

@@ -338,7 +338,6 @@ plugins:
     sudo: {}
     heapsnapshot: {}
     recall: {}
-    '@hieuzest/ping': {}
     ~public: {}
   group:console:
     auth:
