@@ -39,6 +39,8 @@ plugins:
         name: 小游戏/棋类游戏
       roll:
         name: 小游戏/roll
+        aliases:
+          - 掷骰
       hitokoto:
         name: 文字/一言
       thursday:
@@ -83,9 +85,6 @@ plugins:
         name: 管理/shutdown
       pointfree:
         name: 编程工具/pointfree
-      编程工具:
-        name: 工具/编程工具
-        create: true
       guess:
         name: 小游戏/猜数字
       4kimg:
@@ -168,9 +167,6 @@ plugins:
         name: 管理/schedule
       moyu:
         name: 资讯/摸鱼
-      日常工具:
-        name: 工具/日常工具
-        create: true
       exchange:
         name: 日常工具/汇率
       s24:
@@ -230,7 +226,7 @@ plugins:
       bf2042:
         name: 游戏工具/bf2042
       实时油价:
-        name: 日常工具/油价
+        name: 工具/油价
       recall:
         name: 管理/recall
       ba:
@@ -288,7 +284,7 @@ plugins:
       certificate-achievement:
         name: 图片/奖状
       unicode:
-        name: 编程工具/unicode
+        name: 工具/unicode
       nana:
         name: 图片/狗妈表情包
       capoo:
@@ -398,12 +394,12 @@ plugins:
         inbound: true
       emojimix: {}
       5k: {}
-      phlogo: {}
+      ~phlogo: {}
       human-sign: {}
       spawn-handwrite-img: {}
       ~twdne: {}
       ~beauty-img: {}
-      '@ifrank/xibao':
+      ~@ifrank/xibao:
         advanced:
           importCSS: ''
       httpcat: {}
@@ -412,10 +408,10 @@ plugins:
     group:m-ent-text:
       hitokoto: {}
       abbreviation: {}
-      couplet: {}
+      ~couplet: {}
       nonsense: {}
-      cyber-dream: {}
-      names: {}
+      ~cyber-dream: {}
+      ~names: {}
       ~@yrchashao/or: {}
       book: {}
       meal:
@@ -423,7 +419,7 @@ plugins:
           https://ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
       at-suangua: {}
       zhouyi-suangua: {}
-      divine-oracle: {}
+      ~divine-oracle: {}
   group:m-svc:
     puppeteer: {}
     markdown: {}
@@ -439,24 +435,16 @@ plugins:
     ~canvas: {}
   group:m-tools:
     tex: {}
-    qrcode: {}
+    ~qrcode: {}
     ~mcping: {}
-    oeis: {}
+    ~oeis: {}
     ~baidu: {}
-    maya: {}
+    ~maya: {}
     bvid: {}
     showtime:3kwosg: {}
-    group:m-tools-routine:
-      exchange-rate: {}
-      check-oil-prices: {}
-      ~wttr-weather: {}
-    group:m-tools-dev:
-      pointfree: {}
-      glot: {}
-      brainfuck: {}
-      ~star-history: {}
-      npm-unused: {}
-      unicode: {}
+    ~wttr-weather: {}
+    check-oil-prices: {}
+    ~exchange-rate: {}
     num-theory-analyzer: {}
   group:m-games:
     ~lobby: {}
@@ -486,23 +474,24 @@ plugins:
     changelog: {}
   group:m-audit:
     ~blame: {}
-    ~feedback: {}
+    feedback:
+      receivers:
+        - null
+    messages: {}
   group:m-news:
-    todaynews: {}
-    today-in-history: {}
     moyu2:n4d791: {}
-    bangumi:7b73or: {}
-    douban: {}
+    ~bangumi:7b73or: {}
+    ~douban: {}
   group:m-gametools:
-    gdk:a79p3g: {}
-    genshin-code: {}
-    enka: {}
+    ~gdk:a79p3g: {}
+    ~genshin-code: {}
+    ~enka: {}
     ~ba-plugin: {}
-    starrail: {}
-    starrail-gachalog: {}
-    starrail-code: {}
-    starrail-atlas: {}
-    genshin-atlas: {}
+    ~starrail: {}
+    ~starrail-gachalog: {}
+    ~starrail-code: {}
+    ~starrail-atlas: {}
+    ~genshin-atlas: {}
     genshin-date: {}
   group:m-chat:
     respondent: {}
