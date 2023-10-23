@@ -1,5 +1,5 @@
-port: 5140
-maxPort: 5140
+port: 50002
+maxPort: 50002
 plugins:
   group:basic:
     admin: {}
@@ -363,7 +363,7 @@ plugins:
     database-mysql:
       $if: env.MYSQL_HOST
       host: ${{ env.MYSQL_HOST }}
-      port: 3306
+      port: 50001
       password: ${{ env.MYSQL_PASSWORD }}
       database: ${{ env.MYSQL_DATABASE }}
     assets-local: {}
