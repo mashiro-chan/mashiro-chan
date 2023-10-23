@@ -325,6 +325,8 @@ plugins:
         name: 小游戏/猜谜
       reactle:
         name: 小游戏/reactle
+      guess-number:
+        name: 小游戏/猜数字
     help: {}
     inspect: {}
     locales:
@@ -374,7 +376,7 @@ plugins:
       token: ${{ env.QQ_TOKEN }}
       secret: ${{ env.QQ_SECRET }}
       type: public
-      intents: 1275073539
+      intents: 1308627971
       sandbox: false
   group:develop:
     $if: env.NODE_ENV === 'development'

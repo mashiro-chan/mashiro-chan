@@ -40,3 +40,4 @@ commands.help.messages.global-prolog: |-
   当前可用的指令{0}：
   发送「@真白酱 /指令 内容」即可调用~
 commands.5k.description: 生成「5000兆円欲しい」图片
+commands.guess-number.description: 猜数字小游戏
