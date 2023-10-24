@@ -387,6 +387,9 @@ plugins:
       receivers:
         - null
     messages: {}
+    exporter:
+      name: msrc
+      timezone: 8
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
