@@ -356,9 +356,12 @@ plugins:
     sandbox: {}
     status: {}
     theme-vanilla: {}
+    changelog: {}
     ~click-colorful: {}
     desktop: {}
     wallpaper: {}
+  group:m-basic:
+    '@m6c/base': {}
   group:storage:
     database-sqlite:
       $if: '!env.MYSQL_HOST'
@@ -378,12 +381,29 @@ plugins:
       type: public
       intents: 1308627971
       sandbox: false
+  group:m-audit:
+    ~blame: {}
+    feedback:
+      receivers:
+        - null
+    messages: {}
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-  group:m-basic:
-    '@m6c/base': {}
+  group:m-svc:
+    puppeteer: {}
+    markdown: {}
+    text-censor: {}
+    cron: {}
+    presence: {}
+    cache-database:zkmzcd: {}
+    schedule:oxinzl: {}
+    profile: {}
+    react: {}
+    downloads: {}
+    nix: {}
+    ~canvas: {}
   group:m-ent:
     aircon: {}
     ~music:
@@ -422,19 +442,6 @@ plugins:
       at-suangua: {}
       zhouyi-suangua: {}
       ~divine-oracle: {}
-  group:m-svc:
-    puppeteer: {}
-    markdown: {}
-    text-censor: {}
-    cron: {}
-    presence: {}
-    cache-database:zkmzcd: {}
-    schedule:oxinzl: {}
-    profile: {}
-    react: {}
-    downloads: {}
-    nix: {}
-    ~canvas: {}
   group:m-tools:
     tex: {}
     ~qrcode: {}
@@ -472,14 +479,6 @@ plugins:
     color-bias: {}
     color-ident: {}
     ~guess-riddle: {}
-  group:m-console:
-    changelog: {}
-  group:m-audit:
-    ~blame: {}
-    feedback:
-      receivers:
-        - null
-    messages: {}
   group:m-news:
     moyu2:n4d791: {}
     ~bangumi:7b73or: {}
