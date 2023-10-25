@@ -40,7 +40,7 @@ plugins:
       roll:
         name: 小游戏/roll
         aliases:
-          - 掷骰
+          掷骰: {}
       hitokoto:
         name: 文字/一言
       thursday:
@@ -58,7 +58,7 @@ plugins:
       music:
         name: 娱乐/点歌
         aliases:
-          - 音乐
+          音乐: {}
       brainfuck:
         name: 编程工具/bf代码
       weather:
@@ -66,13 +66,13 @@ plugins:
       baidu:
         name: 工具/百度
         aliases:
-          - 百度百科
+          百度百科: {}
       maya:
         name: 工具/玛雅历
       glot:
         name: 工具/代码
         aliases:
-          - 运行
+          运行: {}
       douban:
         name: 资讯/豆瓣
       alipay-voice:
@@ -90,8 +90,8 @@ plugins:
       4kimg:
         name: 图片/风景图
         aliases:
-          - 风景照
-          - 风景照片
+          风景照: {}
+          风景照片: {}
       sign:
         name: 图片/小人举牌
       图片:
@@ -99,7 +99,7 @@ plugins:
       文字:
         create: true
         aliases:
-          - 文本
+          文本: {}
       网易云热评:
         name: 文字/网易云热评
       每日一句:
@@ -118,7 +118,7 @@ plugins:
         name: /游戏
         create: true
         aliases:
-          - 娱乐
+          娱乐: {}
       游戏工具:
         create: true
       genshin:
@@ -146,7 +146,7 @@ plugins:
       roulette:
         name: 小游戏/轮盘赌
         aliases:
-          - 俄罗斯轮盘赌
+          俄罗斯轮盘赌: {}
       poolmanager:
         name: 小游戏/抽卡模拟器
       lottery:
@@ -158,7 +158,7 @@ plugins:
       tarot:
         name: 娱乐/塔罗牌
         aliases:
-          - 塔罗牌占卜
+          塔罗牌占卜: {}
       sleep:
         name: 工具/sleep
       skl:
@@ -178,7 +178,7 @@ plugins:
       nonsense:
         name: 文字/随机句子
         aliases:
-          - ns
+          ns: {}
       jrrp:
         name: 小游戏/今日人品
       r-wallpaper:
@@ -218,7 +218,7 @@ plugins:
       lobby:
         name: 小游戏/大厅
         aliases:
-          - 房间
+          房间: {}
       enka:
         name: 游戏工具/enka
       game:
@@ -274,7 +274,7 @@ plugins:
       ddz:
         name: 小游戏/ddz
         aliases:
-          - 斗地主
+          斗地主: {}
       bullcard:
         name: 小游戏/斗牛
       numtheoryanalyzer:
