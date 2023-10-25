@@ -400,8 +400,8 @@ plugins:
     text-censor: {}
     cron: {}
     presence: {}
-    cache-database:zkmzcd: {}
-    schedule:oxinzl: {}
+    cache-database: {}
+    schedule: {}
     profile: {}
     react: {}
     downloads: {}
@@ -453,7 +453,7 @@ plugins:
     ~baidu: {}
     ~maya: {}
     bvid: {}
-    showtime:3kwosg: {}
+    showtime: {}
     ~wttr-weather: {}
     check-oil-prices: {}
     ~exchange-rate: {}
@@ -464,7 +464,7 @@ plugins:
     dice: {}
     hangman: {}
     guess-number: {}
-    ~pool-simulator:sl0up2: {}
+    ~pool-simulator: {}
     ~realtime-vote: {}
     ~lottery: {}
     ~tarot-divination: {}
@@ -483,19 +483,10 @@ plugins:
     color-ident: {}
     ~guess-riddle: {}
   group:m-news:
-    moyu2:n4d791: {}
-    ~bangumi:7b73or: {}
+    moyu2: {}
+    ~bangumi: {}
     ~douban: {}
   group:m-gametools:
-    ~gdk:a79p3g: {}
-    ~genshin-code: {}
-    ~enka: {}
-    ~ba-plugin: {}
-    ~starrail: {}
-    ~starrail-gachalog: {}
-    ~starrail-code: {}
-    ~starrail-atlas: {}
-    ~genshin-atlas: {}
     genshin-date: {}
   group:m-chat:
     respondent: {}
