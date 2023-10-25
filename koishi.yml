@@ -380,12 +380,10 @@ plugins:
       sandbox: false
   group:m-audit:
     ~blame: {}
-    feedback:
-      receivers:
-        - null
+    ~feedback:
+      receivers: []
     exporter:
       name: msrc
-      timezone: 8
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
@@ -488,3 +486,4 @@ plugins:
 prefix:
   - /
   - null
+timezoneOffset: -480

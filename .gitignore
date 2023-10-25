@@ -133,9 +133,6 @@ dist
 # Vite
 cache/
 
-# Lockfiles
-yarn.lock
-
 # Temp files
 tmp/
 
