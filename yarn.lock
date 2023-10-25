@@ -1071,6 +1071,11 @@
   resolved "https://registry.npmmirror.com/@koishijs/wordle/-/wordle-0.0.15.tgz#a7f2049ca2f2dbc04e9f4dbd79703887322b9769"
   integrity sha512-yGbbhAibRGG4+VB24Vfz18WH5yCe1MjMa7Kv+quuMPD8K2IDBzjmlhTZtrUyFtGOAOiIk9kLbWU1KB7B8dGwUA==
 
+"@m6c/koishi-plugin-base@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/@m6c/koishi-plugin-base/-/koishi-plugin-base-0.1.0.tgz#62a5d0ea7473432af36cefa57a09e4e8c4bf2723"
+  integrity sha512-EmP5kRyNV61xL9I8hHr1HtBrDb6XRwx8WyNcctx7u39UsG6AcOFEePWKpPmFJsPV+q9vlcggjRGIH3zsiChMxQ==
+
 "@maikolib/vite-plugin-yaml@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmmirror.com/@maikolib/vite-plugin-yaml/-/vite-plugin-yaml-1.0.1.tgz#aa6cb86ed8a671d7b6467d14d7553155809ca335"
