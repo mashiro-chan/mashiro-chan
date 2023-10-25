@@ -357,9 +357,7 @@ plugins:
     status: {}
     theme-vanilla: {}
     changelog: {}
-    ~click-colorful: {}
     desktop: {}
-    wallpaper: {}
   group:m-basic:
     '@m6c/base': {}
   group:storage:
@@ -373,7 +371,6 @@ plugins:
       database: ${{ env.MYSQL_DATABASE }}
     assets-local: {}
   group:adapter:
-    ~adapter-kook: {}
     adapter-qq:
       id: ${{ env.QQ_ID }}
       token: ${{ env.QQ_TOKEN }}
@@ -386,7 +383,6 @@ plugins:
     feedback:
       receivers:
         - null
-    messages: {}
     exporter:
       name: msrc
       timezone: 8
@@ -406,7 +402,6 @@ plugins:
     react: {}
     downloads: {}
     nix: {}
-    ~canvas: {}
   group:m-ent:
     aircon: {}
     ~music:
