@@ -327,6 +327,8 @@ plugins:
         name: 小游戏/reactle
       guess-number:
         name: 小游戏/猜数字
+      command:
+        name: 管理/command
     help: {}
     inspect: {}
     locales:

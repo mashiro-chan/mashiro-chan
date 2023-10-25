@@ -4918,10 +4918,10 @@ koishi-plugin-exchange-rate@0.3.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-exchange-rate/-/koishi-plugin-exchange-rate-0.3.0.tgz#2c47447176ffdbc0f29d04526799eda25251dcb9"
   integrity sha512-sLYhc+ZzgWdTmKsYrZv3fOAqAdXdAG3oMGAEeWl18+ciZ3cIcSqsmmP7Dz38qq45K3z6uvYgEwme8c888RDq+A==
 
-koishi-plugin-exporter@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmmirror.com/koishi-plugin-exporter/-/koishi-plugin-exporter-0.0.1.tgz#40e16f3334e85d04eb02df7b2f0a5728c52ca74b"
-  integrity sha512-nmB+EQcd8z84vL009r2ZE3RhPTeVS82qSgDXiKF11uPAUzu0n6WzfAnok8BffW5C3fkQ7IUr9LC9RqG0KdVhAg==
+koishi-plugin-exporter@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmmirror.com/koishi-plugin-exporter/-/koishi-plugin-exporter-0.0.2.tgz#66e68c87e3bfb7aba62f3c2be2a87d11b045ce7d"
+  integrity sha512-Jezy7Zt42qsEZDpp4WwWJrCrh8q+DoAk+0/HsPu2/WwTUq86Jv+asObpddaxMeF8Tj3VIFcCtTMnWo+EJ6qibA==
   dependencies:
     prom-client "^15.0.0"
 
@@ -5209,10 +5209,10 @@ koishi-plugin-showtime@1.0.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-showtime/-/koishi-plugin-showtime-1.0.0.tgz#5b2d23f4c76425cac3fd2242f9fee28d0e9dc633"
   integrity sha512-NsZdo+IHPbPtLTh79WbR0znOqtBiHkxPWrvOD/U5JJSDvn1PwxSlZDYqyDM6yL70OXeuPtiE3dbM8/qzpbeAnw==
 
-koishi-plugin-shutdown@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmmirror.com/koishi-plugin-shutdown/-/koishi-plugin-shutdown-0.3.0.tgz#5193c51597aceeaaf988e2a1d99e4a8817537ef3"
-  integrity sha512-RbLMAssTaj5Jy6gnZzIUHp6LtplnMYxuud2lEaTPXHHjNm1ENYI4xDjbOLxgZjUlCDN6IUfKuIZyfTpl6vAmwA==
+koishi-plugin-shutdown@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-shutdown/-/koishi-plugin-shutdown-0.3.1.tgz#a0bab956e6af3ec9315af6b254f254b1131c4f85"
+  integrity sha512-aSejkL7ITbfAzYKuySGWPOkugu7R1FkzoB9mqMjrDVpLNmRAvfPk8KtVwmwnv2q83hdSJNStVBm/Mflq6OSx5w==
 
 koishi-plugin-spawn-handwrite-img@1.0.6:
   version "1.0.6"
@@ -5276,7 +5276,7 @@ koishi-plugin-zhouyi-suangua@0.0.1:
   resolved "https://registry.npmmirror.com/koishi-plugin-zhouyi-suangua/-/koishi-plugin-zhouyi-suangua-0.0.1.tgz#610c08fd2964f2b110e8931e179b5a9f17749344"
   integrity sha512-M8MRvktVXCf8s7zRLDrrBF/4wepnDALZAJWrdqAM0V7UdhDJ++CYfm4MkxATUrU9uPavTLOnp0vYXEIGryoSsw==
 
-koishi@4.15.2, koishi@^4.15.2:
+koishi@4.15.2:
   version "4.15.2"
   resolved "https://registry.npmmirror.com/koishi/-/koishi-4.15.2.tgz#c56560fb3961eeae04df7c79632a0fb6a8ad68f0"
   integrity sha512-Z0DGoeaeu7NiaiNlDRepW8lXwgNzv9HfqblB/L1lW96+eE9f6WP2t+R/6SGSH1ZA0RNL+WXyqQsASGh2j/dFnw==
