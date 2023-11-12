@@ -3,7 +3,7 @@ maxPort: 50002
 plugins:
   group:basic:
     admin: {}
-    bind: {}
+    ~bind: {}
     commands:
       bind:
         name: 管理/bind
@@ -184,7 +184,7 @@ plugins:
       r-wallpaper:
         name: 图片/二次元房间
       httpcat:
-        name: 图片/httpcat
+        name: 图片/状态码猫图
       handwrite:
         name: 图片/手写
       beauty-img:
@@ -386,6 +386,7 @@ plugins:
       receivers: []
     exporter:
       name: msrc
+    messages-slim: {}
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:
