@@ -851,16 +851,16 @@
   resolved "https://registry.npmmirror.com/@koishijs/console/-/console-5.17.0.tgz#3d865b02be8b5e0382a7e1da299b75a6b9351a5f"
   integrity sha512-dlFx8bxGzgpa7Wv4xDzmJGCeNMfDHitoPDsHSgDMjankiSyEqlVJYkYpUfcv+08tU4BImOXdGq1bdt8nTpyjZg==
 
-"@koishijs/core@4.15.2":
-  version "4.15.2"
-  resolved "https://registry.npmmirror.com/@koishijs/core/-/core-4.15.2.tgz#93bd0fe7f95730a01c901e1f12bf8d4ba62cc6ce"
-  integrity sha512-YcIeSKWjhr/ewONF3p3k3lQaYiq7cOoqLf9/KJUtlkW9uz+Lh9DsbuuEfM35VqaZwiGPncmJGDZRumNBaV+llA==
+"@koishijs/core@4.15.3":
+  version "4.15.3"
+  resolved "https://registry.npmmirror.com/@koishijs/core/-/core-4.15.3.tgz#e6c8a3356da789879d18d6e72b2b7ad214e1c684"
+  integrity sha512-WVCRy1BPPlyEmLVMPgO5nr+knPFmU7tfCP6CrwEKKAOjitQcKBWZfjT6dEOauSgAUI33sims5mafStZY6EMOLA==
   dependencies:
     "@koishijs/i18n-utils" "^1.0.0"
     "@koishijs/utils" "^7.1.1"
-    "@minatojs/core" "^2.4.2"
-    "@satorijs/core" "^3.0.0"
-    cordis "^2.10.2"
+    "@minatojs/core" "^2.4.3"
+    "@satorijs/core" "^3.1.0"
+    cordis "^3.1.1"
     cosmokit "^1.5.1"
     fastest-levenshtein "^1.0.16"
 
@@ -871,10 +871,10 @@
   dependencies:
     cosmokit "^1.4.2"
 
-"@koishijs/loader@4.2.2":
-  version "4.2.2"
-  resolved "https://registry.npmmirror.com/@koishijs/loader/-/loader-4.2.2.tgz#682ae54a678d0cd1e8475471195932a1aef75f65"
-  integrity sha512-B37Hji6ivODeel//9qTn+nwXu2brj5L4t7WZzJAcac7EI1vGNYMy0qpK1O5ZMUOEUHJBHPVTnKQ6hzOwfXvUwg==
+"@koishijs/loader@4.2.3":
+  version "4.2.3"
+  resolved "https://registry.npmmirror.com/@koishijs/loader/-/loader-4.2.3.tgz#47953fd63dff776bcd27f754280cd81b89c4a967"
+  integrity sha512-ri6e0fgbphdplwSPaxi2ndYLNezdHsxDucsFtqPKpKcE9gbrgP5OHSA7phHEX74M1ezcchtXHkT/noTSFW7OdQ==
   dependencies:
     dotenv "^16.3.1"
     js-yaml "^4.1.0"
@@ -1085,12 +1085,12 @@
     js-yaml "^4.1.0"
     tosource "^2.0.0-alpha.3"
 
-"@minatojs/core@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.npmmirror.com/@minatojs/core/-/core-2.4.2.tgz#a75f35fbec2554801e4e9bd33419bed21feb9441"
-  integrity sha512-WXKLfsUsdp7eoR1Z31QD8odasSjDu4oj4Mzpo+x1BMNxssxZE7MF13ISFm6vD+AT9syr7QmClLvAzj+CCf6f7g==
+"@minatojs/core@^2.4.3":
+  version "2.5.0"
+  resolved "https://registry.npmmirror.com/@minatojs/core/-/core-2.5.0.tgz#8655e0d8243b3a013bb99a38296f98f99076f5ff"
+  integrity sha512-ChA7nRlOpE/0lphsABL+fSXJ1ASXrLPG6L+Jee/4jVLHjWfp1b8zNI4hIlp2xt+/Ra3FGLrAoZS/xV2tk97uUQ==
   dependencies:
-    cosmokit "^1.4.5"
+    cosmokit "^1.5.1"
 
 "@minatojs/driver-mysql@^2.5.3":
   version "2.5.3"
@@ -1197,18 +1197,18 @@
   dependencies:
     qface "^1.4.1"
 
-"@satorijs/core@3.0.2", "@satorijs/core@^3.0.0":
-  version "3.0.2"
-  resolved "https://registry.npmmirror.com/@satorijs/core/-/core-3.0.2.tgz#d3509709f226655564a91b571beed54a03de36cc"
-  integrity sha512-ygWpTtdD5X46HDhGM0PB0XnKj0JV7fRvEQVuxaEytTryMQeVyFmZh230T/tpAGbaAhn1UNtjKzRS9syQG60Abg==
+"@satorijs/core@3.2.0", "@satorijs/core@^3.1.0":
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/@satorijs/core/-/core-3.2.0.tgz#a318bbead38514843a80ded7d2832c43226658f8"
+  integrity sha512-5fDoUiwiboKWpsUJN8QFOU/venpSC5L2f8h71HyrGesUNu3wHEbDXolCN52r5qRu4AXIcIark0May8AolU3Djg==
   dependencies:
     "@satorijs/element" "^2.5.1"
     "@satorijs/protocol" "^1.1.1"
-    cordis "^2.10.2"
+    cordis "^3.2.4"
     cordis-axios "^4.0.1"
     cosmokit "^1.5.1"
-    reggol "^1.5.2"
-    schemastery "^3.14.0"
+    reggol "^1.6.3"
+    schemastery "^3.14.1"
     ws "^8.14.2"
 
 "@satorijs/element@^2.5.1":
@@ -1226,16 +1226,28 @@
     "@satorijs/element" "^2.5.1"
     cosmokit "^1.5.1"
 
-"@satorijs/satori@^3.0.0":
-  version "3.0.2"
-  resolved "https://registry.npmmirror.com/@satorijs/satori/-/satori-3.0.2.tgz#e9bcfdecc97d481108ec2ce94d86cb2c544e4a05"
-  integrity sha512-BhrzXzrjX/9V1fthKuK1uxVAm+eH32RzK3/ZyzgwWtzSfjexCOCxvE1+8kedqVL6ph0FMW4tbmycERXz4CoXFw==
+"@satorijs/router@^1.0.2":
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/@satorijs/router/-/router-1.1.2.tgz#2af581f039274f1c5d0fca600bc31d09be61a400"
+  integrity sha512-J9EoXI06g/4nFwgP/Gd1cuikTGioQB+1SEk4xrTUv63dzneBfPdtWvTtanVNreaAYZT4z4aFf2BVY86wB8js7w==
   dependencies:
     "@koa/router" "^10.1.1"
-    "@satorijs/core" "3.0.2"
     "@types/koa" "*"
     "@types/koa__router" "*"
-    "@types/ws" "^8.5.6"
+    "@types/ws" "^8.5.8"
+    koa "^2.14.2"
+    koa-bodyparser "^4.4.1"
+    parseurl "^1.3.3"
+    path-to-regexp "^6.2.1"
+    ws "^8.14.2"
+
+"@satorijs/satori@^3.1.0":
+  version "3.2.0"
+  resolved "https://registry.npmmirror.com/@satorijs/satori/-/satori-3.2.0.tgz#b428ac4c11cd4c5d886954e0bb4e7cc46d67374c"
+  integrity sha512-QjHqN0AGwPXdBYgrB8fie7YIeSzwTerfUzguzaMiBU/SQHQB3JpNc2o/QU/jUGqH01+I1n4R1+qxNBKK07Dvbg==
+  dependencies:
+    "@satorijs/core" "3.2.0"
+    "@types/ws" "^8.5.8"
     file-type "^16.5.4"
     http-proxy-agent "^5.0.0"
     https-proxy-agent "^5.0.1"
@@ -1575,10 +1587,10 @@
   resolved "https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.18.tgz#74bd1c8fd3a2058cb6fc76b188fcded50a83d866"
   integrity sha512-v/ZHEj9xh82usl8LMR3GarzFY1IrbXJw5L4QfQhokjRV91q+SelFqxQWSep1ucXEZ22+dSTwLFkXeur25sPIbw==
 
-"@types/ws@^8.5.6":
-  version "8.5.8"
-  resolved "https://registry.npmmirror.com/@types/ws/-/ws-8.5.8.tgz#13efec7bd439d0bdf2af93030804a94f163b1430"
-  integrity sha512-flUksGIQCnJd6sZ1l5dqCEG/ksaoAg/eUwiLAGTJQcfgvZJKF++Ta4bJA6A5aPSJmsr+xlseHn4KLgVlNnvPTg==
+"@types/ws@^8.5.8":
+  version "8.5.9"
+  resolved "https://registry.npmmirror.com/@types/ws/-/ws-8.5.9.tgz#384c489f99c83225a53f01ebc3eddf3b8e202a8c"
+  integrity sha512-jbdrY0a8lxfdTp/+r7Z4CkycbOFN8WX+IOchLJr3juT/xzbJ8URyTVSJ/hvNdadTgM1mnedb47n+Y31GsFnQlg==
   dependencies:
     "@types/node" "*"
 
@@ -2595,10 +2607,17 @@ cordis-axios@^4.0.1:
     cosmokit "^1.5.1"
     mime-db "^1.52.0"
 
-cordis@^2.10.2, cordis@^2.8.8:
+cordis@^2.8.8:
   version "2.10.3"
   resolved "https://registry.npmmirror.com/cordis/-/cordis-2.10.3.tgz#313473ac721dcafafdbcd263609726b7094b5a36"
   integrity sha512-XZXFZqOCAlwTJ5F3N0QkX+iJYsoUOoUKZ++3spyt9DWBUpF8nRWroheQa494H8bJnhlU8JralsmOw5wBXauJTA==
+  dependencies:
+    cosmokit "^1.5.1"
+
+cordis@^3.1.1, cordis@^3.2.4:
+  version "3.3.0"
+  resolved "https://registry.npmmirror.com/cordis/-/cordis-3.3.0.tgz#e2c2e99529de67361aead921823bcd56010e1528"
+  integrity sha512-OK7NgAEHkQKLdfWieYuCV29RqMTfA77N8apccv74BVKG2NqUDPk8nIs36rgQjsXm6pbI6xYk08QaiOjFkGWVJA==
   dependencies:
     cosmokit "^1.5.1"
 
@@ -4773,6 +4792,11 @@ koishi-plugin-assets-local@3.1.1:
     "@koishijs/assets" "^1.0.3"
     file-type "^16.5.4"
 
+koishi-plugin-at-command@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-at-command/-/koishi-plugin-at-command-1.0.1.tgz#7dd303d50eca49593b9bde4bf16c7c79f3e8f9b4"
+  integrity sha512-WRKK6TBACfPJo5NGp5z9sBlsi1KUXS9yuBYU6lFsu0jevFiokosrCgjtBke2h+RftHBk5DaanGDvudwkxfng9Q==
+
 koishi-plugin-at-suangua@0.0.4:
   version "0.0.4"
   resolved "https://registry.npmmirror.com/koishi-plugin-at-suangua/-/koishi-plugin-at-suangua-0.0.4.tgz#fb8399bff7f4c2b75b58c2cad45382a0b7bfcd07"
@@ -5043,6 +5067,11 @@ koishi-plugin-memes-api@0.1.12:
   dependencies:
     form-data "^4.0.0"
 
+koishi-plugin-messages-slim@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-messages-slim/-/koishi-plugin-messages-slim-0.0.1.tgz#03e0f9ef682976df870938fb71ef41d5d0348d63"
+  integrity sha512-d4sMMTQ8/BKDxLrNZ2EKD+t2Zhw18nn0Pin6PhdLx7YodezSAqCqqCzZXCvGpIT17438pdzxLdu6KMJSTqo13w==
+
 koishi-plugin-moyu2@0.1.0:
   version "0.1.0"
   resolved "https://registry.npmmirror.com/koishi-plugin-moyu2/-/koishi-plugin-moyu2-0.1.0.tgz#4649529fa5904904fd86e39f26b616ca55079401"
@@ -5276,15 +5305,16 @@ koishi-plugin-zhouyi-suangua@0.0.1:
   resolved "https://registry.npmmirror.com/koishi-plugin-zhouyi-suangua/-/koishi-plugin-zhouyi-suangua-0.0.1.tgz#610c08fd2964f2b110e8931e179b5a9f17749344"
   integrity sha512-M8MRvktVXCf8s7zRLDrrBF/4wepnDALZAJWrdqAM0V7UdhDJ++CYfm4MkxATUrU9uPavTLOnp0vYXEIGryoSsw==
 
-koishi@4.15.2:
-  version "4.15.2"
-  resolved "https://registry.npmmirror.com/koishi/-/koishi-4.15.2.tgz#c56560fb3961eeae04df7c79632a0fb6a8ad68f0"
-  integrity sha512-Z0DGoeaeu7NiaiNlDRepW8lXwgNzv9HfqblB/L1lW96+eE9f6WP2t+R/6SGSH1ZA0RNL+WXyqQsASGh2j/dFnw==
+koishi@4.15.3:
+  version "4.15.3"
+  resolved "https://registry.npmmirror.com/koishi/-/koishi-4.15.3.tgz#d8681b3f15c0f0a35e2670a4644af5290308a1f9"
+  integrity sha512-Bl0D7EvD+nkeN43D3YDmaqKiKfo84Cnu0GXP/+ZpLDe1AcBi6Ap+sPtVmZpwPZ4V7zw6F0ZwZGKK6PZ1NOBZWg==
   dependencies:
-    "@koishijs/core" "4.15.2"
-    "@koishijs/loader" "4.2.2"
+    "@koishijs/core" "4.15.3"
+    "@koishijs/loader" "4.2.3"
     "@koishijs/utils" "^7.1.1"
-    "@satorijs/satori" "^3.0.0"
+    "@satorijs/router" "^1.0.2"
+    "@satorijs/satori" "^3.1.0"
     cac "^6.7.14"
     kleur "^4.1.5"
 
@@ -6219,6 +6249,15 @@ reggol@^1.5.1, reggol@^1.5.2:
     object-inspect "^1.12.3"
     supports-color "^8.1.1"
 
+reggol@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.npmmirror.com/reggol/-/reggol-1.6.3.tgz#beee22e3c45f02bc151bbba1675d441a1e4d2f52"
+  integrity sha512-FjrGPK/Lq78oTb42N9DcuYRli95T0Bnqh1eIimLsYu2RhZdTYaLlXlLgQ6f5hpFf5rI35SgtkWX2DjqzvNUhsA==
+  dependencies:
+    cosmokit "^1.5.1"
+    object-inspect "^1.12.3"
+    supports-color "^8.1.1"
+
 registry-auth-token@^4.0.0:
   version "4.2.2"
   resolved "https://registry.npmmirror.com/registry-auth-token/-/registry-auth-token-4.2.2.tgz#f02d49c3668884612ca031419491a13539e21fac"
@@ -6396,10 +6435,17 @@ schemastery-vue@7.0.1:
   dependencies:
     schemastery "^3.11.1"
 
-schemastery@^3.11.1, schemastery@^3.14.0:
+schemastery@^3.11.1:
   version "3.14.0"
   resolved "https://registry.npmmirror.com/schemastery/-/schemastery-3.14.0.tgz#d42c312ef424d2c8b545a3f297a56df493a30155"
   integrity sha512-nDDCJwpLyjOE/t/bgeh4JYOxfs4vItDtOIrdaJKqCW/fGnrJQr6SoUbI1mr5kyv25BVU1W3FdVCfeiu/xNTQ1g==
+  dependencies:
+    cosmokit "^1.5.1"
+
+schemastery@^3.14.1:
+  version "3.14.1"
+  resolved "https://registry.npmmirror.com/schemastery/-/schemastery-3.14.1.tgz#938285c9eb6f9479463330a1f0e426ee1055a1a5"
+  integrity sha512-wrEDrmL5VJFGqoeAFJdJSPBpXT7N+od2FtZIxUVuPnId/hBF5qIHNGtI4sBRcoi4xwnx30GeCdMkYgdrP9y2Ow==
   dependencies:
     cosmokit "^1.5.1"
 

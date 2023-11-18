@@ -358,6 +358,7 @@ plugins:
     heapsnapshot: {}
     recall: {}
     ~public: {}
+    at-command: {}
   group:console:
     auth:
       admin:
