@@ -36,8 +36,9 @@ commands.ys.description: 原神相关功能
 commands.help.messages.command-title: |-
   指令：{0}
   发送「@真白酱 /指令 内容」即可调用~
-commands.help.messages.global-prolog: |-
-  当前可用的指令{0}：
-  发送「@真白酱 /指令 内容」即可调用~
+commands.help.messages.global-prolog: 当前可用的指令{0}：
 commands.5k.description: 生成「5000兆円欲しい」图片
 commands.guess-number.description: 猜数字小游戏
+commands.help.messages.global-epilog: |-
+  输入“@真白酱 {0}帮助 指令名”查看特定指令的语法和使用示例，发送「@真白酱 {0}指令 内容」即可调用~
+  点击我的头像可以将我拉到其他群哦~
