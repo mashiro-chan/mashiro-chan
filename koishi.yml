@@ -25,6 +25,11 @@ plugins:
         name: 管理/user
       help:
         name: /帮助
+        options:
+          help:
+            hidden: true
+          showHidden:
+            hidden: true
       管理:
         create: true
         config:
@@ -125,6 +130,8 @@ plugins:
         name: 游戏工具/genshin
       资讯:
         create: true
+        config:
+          hidden: true
       成语查询:
         name: 文字/成语查询
       悲报:
@@ -167,6 +174,8 @@ plugins:
         name: 管理/schedule
       moyu:
         name: 资讯/摸鱼
+        config:
+          hidden: true
       exchange:
         name: 日常工具/汇率
       s24:
@@ -195,6 +204,8 @@ plugins:
         name: 小游戏/auto-s24
       5k:
         name: 图片/5k
+        config:
+          hidden: true
       24point:
         name: 小游戏/24point
       对对联:
@@ -243,6 +254,8 @@ plugins:
         name: 游戏工具/升级
       wordle:
         name: 小游戏/wordle
+        config:
+          hidden: true
       remake:
         name: 小游戏/人生重开
       npmunused:
@@ -309,6 +322,8 @@ plugins:
         name: 日常工具/天气
       color-bias:
         name: 小游戏/色觉测试
+        config:
+          hidden: true
       meal:
         name: 文字/吃什么
       算一卦:
@@ -321,12 +336,16 @@ plugins:
         name: 文字/抽签
       color-ident:
         name: 小游戏/色彩识别
+        config:
+          hidden: true
       猜谜:
         name: 小游戏/猜谜
       reactle:
         name: 小游戏/reactle
       guess-number:
         name: 小游戏/猜数字
+        config:
+          hidden: true
       command:
         name: 管理/command
     help: {}
@@ -437,7 +456,7 @@ plugins:
       book: {}
       meal:
         json_url: >-
-          https://ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
+          https://mirror.ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
       at-suangua: {}
       zhouyi-suangua: {}
       ~divine-oracle: {}
@@ -453,7 +472,7 @@ plugins:
     ~wttr-weather: {}
     check-oil-prices: {}
     ~exchange-rate: {}
-    num-theory-analyzer: {}
+    ~num-theory-analyzer: {}
   group:m-games:
     ~lobby: {}
     ~chess: {}
