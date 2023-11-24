@@ -98,6 +98,7 @@
     "@koishijs/plugin-logger": "2.5.2",
     "@koishijs/plugin-market": "2.4.2",
     "@koishijs/plugin-sandbox": "3.2.2",
+    "@koishijs/plugin-server-temp": "1.1.1",
     "@koishijs/plugin-status": "7.2.5",
     "@m6c/koishi-plugin-base": "0.1.0",
     "@shiki-chan/koishi-plugin-werewolf": "0.3.1",

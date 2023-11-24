@@ -1,3 +1,4 @@
+host: 0.0.0.0
 port: 50002
 maxPort: 50002
 plugins:
@@ -400,6 +401,8 @@ plugins:
       type: public
       intents: 1308627971
       sandbox: false
+    server-temp:
+      selfUrl: ${{ env.SELF_URL_PRIVATE }}
   group:m-audit:
     ~blame: {}
     ~feedback:

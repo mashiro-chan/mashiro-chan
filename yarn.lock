@@ -1033,6 +1033,13 @@
   dependencies:
     "@koishijs/console" "^5.16.1"
 
+"@koishijs/plugin-server-temp@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-server-temp/-/plugin-server-temp-1.1.1.tgz#17e964a8119c5eea5b7dcbd4795bb9eaee779953"
+  integrity sha512-IfYtc1/oaTcbQqA1L8u1lHzLrN8KFsG4M3avCom+6meVVJPXbDG60stUb88FCQLNrrCmltva0hGUBHC2mp3Zdw==
+  dependencies:
+    "@satorijs/server-temp" "^1.1.1"
+
 "@koishijs/plugin-status@7.2.5":
   version "7.2.5"
   resolved "https://registry.npmmirror.com/@koishijs/plugin-status/-/plugin-status-7.2.5.tgz#9b2ea9bdeddd26ad731689e09c7937f91b2fc0f9"
@@ -1264,6 +1271,11 @@
     path-to-regexp "^6.2.1"
     socks-proxy-agent "^5.0.1"
     ws "^8.14.2"
+
+"@satorijs/server-temp@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/@satorijs/server-temp/-/server-temp-1.1.1.tgz#723569c47a16be453c327eea5651cec5a1a037bc"
+  integrity sha512-kJICgRuMq4msaBkrKVWscQ0izAtPVZP0H1qHvU77u0L9+pM1ElVszfoNfQhnVflwS3BpFWIiUAs7/vdATRPfNQ==
 
 "@shiki-chan/koishi-plugin-werewolf@0.3.1":
   version "0.3.1"
