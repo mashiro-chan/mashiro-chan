@@ -223,8 +223,6 @@ plugins:
         name: poolmanager/抽卡
       feedback:
         name: /反馈
-      关于:
-        create: true
       star-history:
         name: 编程工具/star历史
       lobby:
@@ -349,6 +347,8 @@ plugins:
           hidden: true
       command:
         name: 管理/command
+      about:
+        name: /关于
     qhelp: {}
     about: {}
     inspect: {}

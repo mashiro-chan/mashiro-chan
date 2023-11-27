@@ -42,3 +42,9 @@ commands.guess-number.description: 猜数字小游戏
 commands.help.messages.global-epilog: |-
   输入“@真白酱 {0}帮助 指令名”查看特定指令的语法和使用示例，发送「@真白酱 {0}指令 内容」即可调用~
   点击我的头像可以将我拉到其他群哦~
+commands.about.template: |-
+  真白酱机器人 - 一个集游戏娱乐、智能问答、趣味交互、实用工具等功能于一身的群聊机器人
+  使用「@真白酱 /帮助」查看我的所有功能，点击我的头像可以将我拉到其他群哦~
+  版本：{gitVersion}
+  框架：Koishi v{koishiVersion}
+  开源地址：GitHub @mashiro-chan
