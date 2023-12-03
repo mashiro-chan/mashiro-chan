@@ -865,19 +865,6 @@
     cosmokit "^1.5.1"
     fastest-levenshtein "^1.0.16"
 
-"@koishijs/core@4.15.7":
-  version "4.15.7"
-  resolved "https://registry.npmmirror.com/@koishijs/core/-/core-4.15.7.tgz#dfdfdb25f54103d8b0a366dc6a6839b4508d737b"
-  integrity sha512-Zps+KiU6lrQTuanqiO+pPnz3k0Ysf17H7DXvHi2I8lO+7b7dPXbxsRb5OHZVxI2qSa/AfuPDo3p4gnNBCAkSfQ==
-  dependencies:
-    "@koishijs/i18n-utils" "^1.0.0"
-    "@koishijs/utils" "^7.1.1"
-    "@minatojs/core" "^2.6.1"
-    "@satorijs/core" "^3.2.3"
-    cordis "^3.3.1"
-    cosmokit "^1.5.1"
-    fastest-levenshtein "^1.0.16"
-
 "@koishijs/i18n-utils@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmmirror.com/@koishijs/i18n-utils/-/i18n-utils-1.0.0.tgz#6930dbc62eb2123ad2ae598cd6ba232f39ffaeca"
@@ -889,15 +876,6 @@
   version "4.2.6"
   resolved "https://registry.npmmirror.com/@koishijs/loader/-/loader-4.2.6.tgz#15d5e40d5a349999a1fe2a67819f77d6f2ba26d8"
   integrity sha512-eWuI0T8ZDL+CVHhRdQzV/QpuuzEDXd3ep7FAEcdmy4yJFKMMmOz4suj5/zRbTVC/sZJgyktuxI3Ar5URN3bAEA==
-  dependencies:
-    dotenv "^16.3.1"
-    js-yaml "^4.1.0"
-    ns-require "^1.1.4"
-
-"@koishijs/loader@4.2.7":
-  version "4.2.7"
-  resolved "https://registry.npmmirror.com/@koishijs/loader/-/loader-4.2.7.tgz#5e839ca24b1da6a1db61c5554fabe61e9af47eba"
-  integrity sha512-UqCYIWX3XEr51CnLNWny92yroy0XJSwBM7Xws591zUa15CuV0D05qZwbW90B/37b281R/5t9VrMjHrgfYV5Mhw==
   dependencies:
     dotenv "^16.3.1"
     js-yaml "^4.1.0"
@@ -1122,7 +1100,7 @@
     js-yaml "^4.1.0"
     tosource "^2.0.0-alpha.3"
 
-"@minatojs/core@^2.6.0", "@minatojs/core@^2.6.1":
+"@minatojs/core@^2.6.0":
   version "2.6.1"
   resolved "https://registry.npmmirror.com/@minatojs/core/-/core-2.6.1.tgz#16e9be1cf55f997761fd6fcf615c7a511526b3f9"
   integrity sha512-rKxZB0M5WFmL6B1fgg/6tpjt08SO7cJe95dHhGJmyOaIk/cQYjHXJy+RMdG0GLKGhCI5IIlDRdR1VPVi655pLw==
@@ -1234,7 +1212,7 @@
   dependencies:
     qface "^1.4.1"
 
-"@satorijs/core@3.2.3", "@satorijs/core@^3.2.1", "@satorijs/core@^3.2.3":
+"@satorijs/core@3.2.3", "@satorijs/core@^3.2.1":
   version "3.2.3"
   resolved "https://registry.npmmirror.com/@satorijs/core/-/core-3.2.3.tgz#a9aa03d46649d0810c487ca1a7ab2ac0a79aa402"
   integrity sha512-KpCkmkkZM/3d9pgMu0qLmL9NCgrf9oOQLWv3tskaYaKh8Bhu55LFac6WWXvnzG+19IHCV0jnjRtNyeQTj+nMKQ==
@@ -1278,7 +1256,7 @@
     path-to-regexp "^6.2.1"
     ws "^8.14.2"
 
-"@satorijs/satori@^3.2.1", "@satorijs/satori@^3.2.3":
+"@satorijs/satori@^3.2.1":
   version "3.2.3"
   resolved "https://registry.npmmirror.com/@satorijs/satori/-/satori-3.2.3.tgz#6650a6d23854397500fdc649c0f087984cefa915"
   integrity sha512-wDxIdHDpStVaxvtNvYn1YN+ThIwVgZYsjlYlbq5CO24eajxp9iMUVEFoZUToq0x2fqzwLCfdpBVBi0Nw+zJQrA==
@@ -4811,6 +4789,11 @@ koishi-plugin-abbreviation@1.0.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-abbreviation/-/koishi-plugin-abbreviation-1.0.0.tgz#62d6204372c8d309ec883463e91b53d2c7523a3a"
   integrity sha512-DXJB+6naepaxrrlJiKT/UzlK88d6CSyFEoLQkIA8tcegHdaR4vtCvvvd6bvc6Q9hDxbshk40QnYdeWToX7qlUQ==
 
+koishi-plugin-about@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmmirror.com/koishi-plugin-about/-/koishi-plugin-about-0.0.1.tgz#fbdb07271fcf9721708b28f39045b4bfb80dae3f"
+  integrity sha512-GHjWztOIw8nP8sBP920cLAOgeQYt+rAgpNz2SakuE3aNps1z3Z5v8dv3eWfvhptO9bmZwVQDvUSokYxwIKT1WQ==
+
 koishi-plugin-aircon@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/koishi-plugin-aircon/-/koishi-plugin-aircon-1.1.1.tgz#6d72492afe1f36e1854b81ddd9bd701876b39ea2"
@@ -5340,19 +5323,6 @@ koishi@4.15.6:
     "@koishijs/utils" "^7.1.1"
     "@satorijs/router" "^1.1.2"
     "@satorijs/satori" "^3.2.1"
-    cac "^6.7.14"
-    kleur "^4.1.5"
-
-koishi@^4.15.6:
-  version "4.15.7"
-  resolved "https://registry.npmmirror.com/koishi/-/koishi-4.15.7.tgz#0f39468772b3894ddd9532e673beb87ac288b22e"
-  integrity sha512-RxDO79pIZ63zZOCTDAz6jLQg7Ud9j3XVjxxNRDhZVOjj4+nqRwFGLPZqQQclqBKyPe5Kpdmjc+H0HmzRU4s2Mw==
-  dependencies:
-    "@koishijs/core" "4.15.7"
-    "@koishijs/loader" "4.2.7"
-    "@koishijs/utils" "^7.1.1"
-    "@satorijs/router" "^1.1.2"
-    "@satorijs/satori" "^3.2.3"
     cac "^6.7.14"
     kleur "^4.1.5"
 
