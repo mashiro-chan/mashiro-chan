@@ -205,8 +205,6 @@ plugins:
         name: 小游戏/auto-s24
       5k:
         name: 图片/5k
-        config:
-          hidden: true
       24point:
         name: 小游戏/24point
       对对联:
@@ -349,6 +347,10 @@ plugins:
         name: 管理/command
       about:
         name: /关于
+      memegen-certificate:
+        name: 图片/奖状
+      memegen-5000choyen:
+        name: 图片/5k
     about: {}
     help: {}
     inspect: {}
@@ -383,7 +385,7 @@ plugins:
     changelog: {}
     desktop: {}
   group:m-basic:
-    '~@m6c/base': {}
+    ~@m6c/base: {}
   group:storage:
     database-sqlite:
       $if: '!env.MYSQL_HOST'
@@ -438,7 +440,7 @@ plugins:
       ~animal-picture:
         inbound: true
       emojimix: {}
-      5k: {}
+      ~5k: {}
       ~phlogo: {}
       human-sign: {}
       spawn-handwrite-img: {}
@@ -448,8 +450,14 @@ plugins:
         advanced:
           importCSS: ''
       httpcat: {}
-      ~memes-api: {}
-      certificate-achievement: {}
+      ~certificate-achievement: {}
+      '@m6c/memes':
+        name: 真白酱
+        memes:
+          - key: certificate
+            name: 奖状
+          - key: 5000choyen
+            name: 5k
     group:m-ent-text:
       hitokoto: {}
       abbreviation: {}
