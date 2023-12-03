@@ -46,7 +46,7 @@
     "start": "koishi start"
   },
   "devDependencies": {
-    "@koishijs/client": "5.14.2",
+    "@koishijs/client": "5.19.1",
     "@koishijs/plugin-hmr": "1.2.1",
     "@koishijs/scripts": "4.3.2",
     "@tsconfig/strictest": "^2.0.2",
@@ -113,7 +113,7 @@
     "koishi-plugin-animal-picture": "1.0.2",
     "koishi-plugin-assets-local": "3.2.0",
     "koishi-plugin-at-command": "1.0.1",
-    "koishi-plugin-at-suangua": "0.0.4",
+    "koishi-plugin-at-suangua": "0.0.5",
     "koishi-plugin-baidu": "1.1.1",
     "koishi-plugin-bangumi": "1.0.0",
     "koishi-plugin-beauty-img": "1.2.5",
@@ -161,7 +161,6 @@
     "koishi-plugin-maya": "2.1.1",
     "koishi-plugin-mcping": "2.1.1",
     "koishi-plugin-meal": "0.0.2",
-    "koishi-plugin-memes-api": "0.1.12",
     "koishi-plugin-messages-slim": "0.0.1",
     "koishi-plugin-moyu2": "0.1.0",
     "koishi-plugin-music": "2.2.2",
