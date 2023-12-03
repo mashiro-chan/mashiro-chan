@@ -349,8 +349,8 @@ plugins:
         name: 管理/command
       about:
         name: /关于
-    qhelp: {}
     about: {}
+    help: {}
     inspect: {}
     locales:
       root: locales2
@@ -382,7 +382,8 @@ plugins:
     theme-vanilla: {}
     changelog: {}
     desktop: {}
-  group:m-basic: {}
+  group:m-basic:
+    '~@m6c/base': {}
   group:storage:
     database-sqlite:
       $if: '!env.MYSQL_HOST'
