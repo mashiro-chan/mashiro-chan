@@ -903,12 +903,12 @@
     js-yaml "^4.1.0"
     ns-require "^1.1.4"
 
-"@koishijs/plugin-adapter-qq@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.npmmirror.com/@koishijs/plugin-adapter-qq/-/plugin-adapter-qq-4.1.11.tgz#943a40d3fc9cbe18c167c3f90348d9ef40b5245b"
-  integrity sha512-AkOuKEtC/bUDqRD63jNlQHVsyjlPYsTUpuquPJ7aPzIZL7s+WAHGRVYAjXxGLymVHwenl4d9AK8lP36aPCXdSw==
+"@koishijs/plugin-adapter-qq@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.npmmirror.com/@koishijs/plugin-adapter-qq/-/plugin-adapter-qq-4.2.0.tgz#54c1f507a34fc8a9f45a6ebbced9320321b07bd3"
+  integrity sha512-QoCWzDgLYOtduNKJiTBkyc4v0oUWbgM6EEe4zVNqf18NTq5WMXgY583Yhrwt8oXpBms/KLr3xqkVCBJb0YOvJA==
   dependencies:
-    "@satorijs/adapter-qq" "^4.1.11"
+    "@satorijs/adapter-qq" "^4.2.0"
 
 "@koishijs/plugin-admin@2.0.0-alpha.4":
   version "2.0.0-alpha.4"
@@ -1108,6 +1108,11 @@
   resolved "https://registry.npmmirror.com/@m6c/koishi-plugin-base/-/koishi-plugin-base-0.1.0.tgz#62a5d0ea7473432af36cefa57a09e4e8c4bf2723"
   integrity sha512-EmP5kRyNV61xL9I8hHr1HtBrDb6XRwx8WyNcctx7u39UsG6AcOFEePWKpPmFJsPV+q9vlcggjRGIH3zsiChMxQ==
 
+"@m6c/koishi-plugin-memes@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/@m6c/koishi-plugin-memes/-/koishi-plugin-memes-0.1.0.tgz#82cfde3ad9a1ad29c6f843e9fb058beb8578a69e"
+  integrity sha512-fPMFP7QzivlgfqrF3ktnNJr0V8dw6QYR/PB76nC+u2kYrkd48PH7T9oiIxQJvnH0NvjfmtxBvDxjwehaelnimw==
+
 "@maikolib/vite-plugin-yaml@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmmirror.com/@maikolib/vite-plugin-yaml/-/vite-plugin-yaml-1.0.1.tgz#aa6cb86ed8a671d7b6467d14d7553155809ca335"
@@ -1222,7 +1227,7 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@satorijs/adapter-qq@^4.1.11":
+"@satorijs/adapter-qq@^4.2.0":
   version "4.2.0"
   resolved "https://registry.npmmirror.com/@satorijs/adapter-qq/-/adapter-qq-4.2.0.tgz#2e129a416b434cc8e13ce2a1b2c56263e7b71f5d"
   integrity sha512-SyvtS9wUN6bU/wTY4qZnR7T+rnyAUbc9fT83O+5izHq80r2WJM96Jr1d87KOHmT8YJwJRdkFEEAXN4x8PV6ZJg==

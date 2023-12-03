@@ -80,7 +80,7 @@
   },
   "dependencies": {
     "@ifrank/koishi-plugin-xibao": "1.3.0",
-    "@koishijs/plugin-adapter-qq": "4.1.11",
+    "@koishijs/plugin-adapter-qq": "4.2.0",
     "@koishijs/plugin-admin": "2.0.0-alpha.4",
     "@koishijs/plugin-auth": "4.1.5",
     "@koishijs/plugin-bind": "1.4.5",
@@ -101,6 +101,7 @@
     "@koishijs/plugin-server-temp": "1.1.1",
     "@koishijs/plugin-status": "7.2.5",
     "@m6c/koishi-plugin-base": "0.1.0",
+    "@m6c/koishi-plugin-memes": "0.1.0",
     "@shiki-chan/koishi-plugin-werewolf": "0.3.1",
     "@yrchashao/koishi-plugin-or": "1.0.9",
     "jsonpath-plus": "^7.2.0",
