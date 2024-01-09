@@ -351,6 +351,8 @@ plugins:
         name: 图片/奖状
       memegen-5000choyen:
         name: 图片/5k
+      pingti:
+        name: 工具/平替
     about: {}
     help: {}
     inspect: {}
@@ -485,6 +487,42 @@ plugins:
     check-oil-prices: {}
     ~exchange-rate: {}
     ~num-theory-analyzer: {}
+    pingti:r7e38c:
+      headers:
+        - key: Accept
+          value: '*/*'
+        - key: Accept-Encoding
+          value: gzip, deflate, br
+        - key: Accept-Language
+          value: zh-CN,en-US;q=0.9,en;q=0.8
+        - key: Cache-Control
+          value: no-cache
+        - key: Content-Type
+          value: text/plain;charset=UTF-8
+        - key: Cookie
+          value: ${{ env.PINGTI_COOKIE }}
+        - key: Origin
+          value: https://www.pingti.xyz
+        - key: Pragma
+          value: no-cache
+        - key: Referer
+          value: https://www.pingti.xyz/
+        - key: Sec-Ch-Ua
+          value: '"Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"'
+        - key: Sec-Ch-Ua-Mobile
+          value: '?0'
+        - key: Sec-Ch-Ua-Platform
+          value: '"Windows"'
+        - key: Sec-Fetch-Dest
+          value: empty
+        - key: Sec-Fetch-Mode
+          value: cors
+        - key: Sec-Fetch-Site
+          value: same-origin
+        - key: User-Agent
+          value: >-
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+            like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
   group:m-games:
     ~lobby: {}
     ~chess: {}

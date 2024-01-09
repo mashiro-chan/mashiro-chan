@@ -48,3 +48,4 @@ commands.about.template: |-
   版本：{gitVersion}
   框架：Koishi v{koishiVersion}
   开源地址：GitHub @mashiro-chan
+commands.pingti.description: 平替商品查询！

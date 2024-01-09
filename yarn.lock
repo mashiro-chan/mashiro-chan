@@ -5152,6 +5152,11 @@ koishi-plugin-ping-speed-check@0.0.1:
   resolved "https://registry.npmmirror.com/koishi-plugin-ping-speed-check/-/koishi-plugin-ping-speed-check-0.0.1.tgz#b31dd2fee94313d51f948487853f83c508425121"
   integrity sha512-O81Ro8J4J2d6QW8AUc0rriwuspRJjDcvV9LoqeIDgKThSGc0Oh0Kx7fYg6jhD4K93Z3ZxgZyOlcwjz/MRD3hTA==
 
+koishi-plugin-pingti@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/koishi-plugin-pingti/-/koishi-plugin-pingti-0.1.0.tgz#b2da29f125d90b73993d5171dd6699c94a1d33bc"
+  integrity sha512-XMEDUIVHalCsnhPJD1sO6DoArjwQ+skj7jDiXWfozm2Su2FJNM/SjiHeNWAvjwYzfoaqVSswnN+SVimhSiH1Ow==
+
 koishi-plugin-pool-simulator@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/koishi-plugin-pool-simulator/-/koishi-plugin-pool-simulator-2.0.0.tgz#4a869227785f277280205b9d3e8f36cebc4c5816"
