@@ -4822,11 +4822,6 @@ koishi-plugin-at-command@1.0.1:
   resolved "https://registry.npmmirror.com/koishi-plugin-at-command/-/koishi-plugin-at-command-1.0.1.tgz#7dd303d50eca49593b9bde4bf16c7c79f3e8f9b4"
   integrity sha512-WRKK6TBACfPJo5NGp5z9sBlsi1KUXS9yuBYU6lFsu0jevFiokosrCgjtBke2h+RftHBk5DaanGDvudwkxfng9Q==
 
-koishi-plugin-at-suangua@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmmirror.com/koishi-plugin-at-suangua/-/koishi-plugin-at-suangua-0.0.5.tgz#25530a767bce11137cc168f6e15c278db31ba55d"
-  integrity sha512-otTE3O80dy1Ttht0e+iqFOxsxyuLAgvrg0YHfXHwV1Ytu8bE1UVG0coIorhx58lE0CQBolLgLIyECnI2Tp9RpA==
-
 koishi-plugin-baidu@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/koishi-plugin-baidu/-/koishi-plugin-baidu-1.1.1.tgz#517ae2bf1c05ed56e48cbf05f73f0f82a8c51750"

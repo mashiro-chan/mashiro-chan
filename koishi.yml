@@ -472,7 +472,6 @@ plugins:
       meal:
         json_url: >-
           https://mirror.ghproxy.com/https://raw.githubusercontent.com/PoorCha/koishi-plugin-meal/master/menu.json
-      at-suangua: {}
       ~divine-oracle: {}
   group:m-tools:
     ~tex: {}
