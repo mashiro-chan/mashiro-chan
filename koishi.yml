@@ -203,8 +203,6 @@ plugins:
         name: 资讯/番组计划
       auto-s24:
         name: 小游戏/auto-s24
-      5k:
-        name: 图片/5k
       24point:
         name: 小游戏/24point
       对对联:
@@ -351,6 +349,10 @@ plugins:
         name: 图片/奖状
       memegen-5000choyen:
         name: 图片/5k
+      memegen-bluearchive:
+        name: 图片/balogo
+      memegen-high-eq:
+        name: 图片/高情商
       pingti:
         name: 工具/平替
     about: {}
@@ -460,6 +462,10 @@ plugins:
             name: 奖状
           - key: 5000choyen
             name: 5k
+          - key: bluearchive
+            name: balogo
+          - key: high_EQ
+            name: 高情商
     group:m-ent-text:
       hitokoto: {}
       abbreviation: {}

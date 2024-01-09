@@ -4962,10 +4962,10 @@ koishi-plugin-exchange-rate@0.3.0:
   resolved "https://registry.npmmirror.com/koishi-plugin-exchange-rate/-/koishi-plugin-exchange-rate-0.3.0.tgz#2c47447176ffdbc0f29d04526799eda25251dcb9"
   integrity sha512-sLYhc+ZzgWdTmKsYrZv3fOAqAdXdAG3oMGAEeWl18+ciZ3cIcSqsmmP7Dz38qq45K3z6uvYgEwme8c888RDq+A==
 
-koishi-plugin-exporter@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmmirror.com/koishi-plugin-exporter/-/koishi-plugin-exporter-0.0.2.tgz#66e68c87e3bfb7aba62f3c2be2a87d11b045ce7d"
-  integrity sha512-Jezy7Zt42qsEZDpp4WwWJrCrh8q+DoAk+0/HsPu2/WwTUq86Jv+asObpddaxMeF8Tj3VIFcCtTMnWo+EJ6qibA==
+koishi-plugin-exporter@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/koishi-plugin-exporter/-/koishi-plugin-exporter-1.1.0.tgz#c96bce67794845d0e58893376d6abaf92163491b"
+  integrity sha512-i9e6lhQzFbcwz0pqWGr2lfjD4s3XbelKpsePHsra5rF0LVYTBdYCgVdSB9Q+AFZNzUqRIHPwKBsOh5cYQ/jkOw==
   dependencies:
     prom-client "^15.0.0"
 
